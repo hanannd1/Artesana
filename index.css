@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'fuenteprincipal';
+    src: url('./assets/Higuen\ Serif.otf') format('odf');
+}
+body{
+    overflow-x: hidden;
+    box-sizing: border-box;
+    width: 100vw;
+    height:fit-content;
+}
+.navegador{
+    align-items: center;
+    display: flex;
+    justify-content:space-between ;
+    background-color: #FFF8F0;
+}
+.imagen{
+    width: 36px;
+    object-fit: cover;
+    
+}
+.cajainvisible{
+    width: 36px;
+}
+.logotipo{
+    color: #7a3a8a;
+    font-family: 'fuenteprincipal';
+}
+.boton{
+    background-color: #FFF8F0;
+    border: transparent;
+}
+.carrusel{
+    width: 100vw;
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center ;
+    align-items: right;
+    box-sizing: content-box;
+}
+.contenedorprincipal{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: absolute;
+    border-radius: 30px ;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+}
+.imagencontenedorprincipal{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    object-fit: cover;
+    position: absolute; 
+    z-index: -1;
+    border-radius: 30px ;
+    
+}
+.titulocontenedorprincipal{
+    color: white;
+    font-family: "fuenteprincipal";
+    font-size: 32px;
+    margin-left: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+.textocontenedorprincipal{
+    color: white;
+    font-size: 12px;
+    margin-left: 180px;
+    margin-top: 180px;
+    background-color: #7a3a8a;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+.catalogo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+.titulocatalogo{
+    margin-top: -80px;
+    margin-bottom: 0px;
+}
+
+.palabracatalogo{
+    color: #7a3a8a;
+    font-family:"fuenteprincipal";
+}
+
+.contenedorenlaces{
+   display: flex;
+   flex-flow: row wrap;
+   align-items: center;
+   justify-content: center;
+
+}
+.carteras{
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+    object-fit: cover;
+    transition: all .6s ease;
+}
+.enlace{
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 30px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin: 20px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+}
+.enlace:hover > .tituloenlace{
+    color: #7a3a8a;
+    transform: scale(1.2);
+    transition: transform 0.6s ease;
+    text-shadow: none; /* Sombra del texto */
+}
+.enlace:hover > .carteras{
+    filter: blur(40px);
+    transition: all .6s ease;
+
+}
+.tituloenlace{
+    color: white;
+    font-family: "fuenteprincipal";
+    font-size: 40px;
+    transform: scale(1);
+    transition: transform .6s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra del texto */
+}
+.contenedorprincipal:nth-child(1) {
+    animation: carrousel 15s infinite;
+}
+ 
+.contenedorprincipal:nth-child(2) {
+    animation: carrousel 15s infinite -5s;
+}
+ 
+.contenedorprincipal:nth-child(3) {
+    animation: carrousel 15s infinite -10s;
+}
+.piedepagina{
+    background-color: #7a3a8a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.icono-enlace{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.footertitle{
+    color: #FFF8F0;
+}
+.contenidofooter{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin: 20px;
+}
+.linea{
+    height: 100px;
+    width: 5px;
+    border-radius: 100px;
+    background-color: #FFF8F0;
+    margin: 0 30px;
+
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes carrousel{
+    0%{
+     transform: translateX(1000px) scale(0.5);
+    }
+    20%,25%{
+     transform: translateX(500px) scale(0.5);
+    }
+    50%,55%{
+     transform: scale(1);
+    }
+    80%, 90%{
+     transform: translateX(-500px) scale(0.5);
+  
+    }
+    100%{
+     transform: translateX(-1000px) scale(0.5);
+    }
+ }
+ 

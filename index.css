@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'fuenteprincipal';
-    src: url('./assets/Higuen\ Serif.otf') format('odf');
+    src: url('./assets/HiguenSerif.otf') format('otf');
 }
 body{
     overflow-x: hidden;
@@ -121,7 +121,9 @@ body{
     justify-content: center;
     cursor: pointer;
     margin: 20px;
+    text-align: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+    text-decoration: none;
 }
 .enlace:hover > .tituloenlace{
     color: #7a3a8a;

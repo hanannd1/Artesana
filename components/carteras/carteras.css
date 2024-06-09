@@ -11,6 +11,9 @@ body{
     width: 100vw;
     height:fit-content;
 }
+.cajatitulo{
+    text-decoration: none;
+}
 .navegador{
     align-items: center;
     display: flex;
@@ -49,6 +52,32 @@ body{
 }
 .portada p{
     font-size: 20px;
+}
+.botonColores{
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    gap: 20px;
+    display: flex;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+.botonColores button{
+    padding: 10px;
+    background-color: #7a3a8a;
+    color:white ;
+    border-radius: 15px;
+    outline: none;
+    font-size: 18px;
+    border: 2px transparent solid;
+    transition: all .2s ease;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+}
+.botonColores button:hover{
+    background-color: white;
+    color: #7a3a8a;
+    border: 2px #7a3a8a solid;
+    transition: all .2s ease;
 }
 .botones{
     width: 100%;

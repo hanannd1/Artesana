@@ -19,6 +19,9 @@ body{
     object-fit: cover;
     
 }
+.cajatitulo{
+    text-decoration: none;
+}
 .cajainvisible{
     width: 36px;
 }

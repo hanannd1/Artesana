@@ -20,10 +20,12 @@ body{
 .imagen{
     width: 36px;
     object-fit: cover;
-    
 }
 .cajainvisible{
     width: 36px;
+}
+.cajatitulo{
+    text-decoration: none;
 }
 .logotipo{
     color: #7a3a8a;

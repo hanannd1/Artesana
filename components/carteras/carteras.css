@@ -47,7 +47,7 @@ body{
     overflow: hidden;
     flex-flow: wrap row;
     gap: 10px;
-    transition: height .5s linear;
+    transition: height .6s ease;
 }
 .coloresCarteras img{
     margin: 10px;

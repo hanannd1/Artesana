@@ -2,6 +2,36 @@
     font-family: 'fuenteprincipal';
     src: url('./assets/HiguenSerif.otf') format('otf');
 }
+.navSlide{
+    display: none;  
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #FFF8F0;
+    position: fixed;
+    height: 100%;
+    z-index: 1000;
+    padding: 10px 30px 10px 10px;
+    gap: 15px;
+    border-right: 5px #7a3a8a solid;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.80));
+    flex-direction: column;
+}
+.botonNav img{
+    width: 36px;
+    object-fit: cover;
+    cursor: pointer;
+}
+.categoriasMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.categoriasMenu a{
+    text-decoration: none;
+    color: #7a3a8a;
+    font-size: 22px;
+    font-weight: 800;
+}
 body{
     overflow-x: hidden;
     box-sizing: border-box;

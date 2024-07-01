@@ -8,9 +8,19 @@
         <title>Flores tejidas</title>
     </head>
     <body>
-        <nav class="navegador">
+        <nav class="navSlide" id="navSlide">
+            <div class="botonNav" onclick="openAndCloseNav()">
+                <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
+            </div>
+            <div class="categoriasMenu">
+                <a href="./components/carteras/carteras.html">Carteras</a>
+                <a href="./components/flores/flores.html">Flores</a>
+                <a href="./components/forros-de-laptop/forros-de-laptop.html">Forros de laptop</a>
+            </div>
+        </nav>
+        <div class="navegador">
             <div class="menu">
-                <button class="boton">
+                <button class="boton" onclick="openAndCloseNav()">
                     <img class="imagen" src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
                 </button>
             </div>
@@ -19,7 +29,7 @@
             </a>
             <div class="cajainvisible">
             </div>
-        </nav>
+        </div>
         <section class="cuerpoVista">
             <div class="portada">
                 <h2>Flores tejidas</h2>
@@ -38,9 +48,28 @@
             </div>
             <div>
             </div>
-            <div class="botones">
-                <button>Ver colores disponibles</button>
-           </div>
+            <div class="botonColores">
+                <button onclick="navOpenAndClose()">Ver colores disponibles</button>
+            </div>
+            <div class="coloresCarteras" id="coloresCarteras">
+                <img src="./../../assets/coloresTrapillo/colorAzul.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorCielo.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorGris.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorCian.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorFucsia.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorHueso.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorMagenta.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorMelocoton.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorMora.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorNegro.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorNieve.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorOliva.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorPistacho.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorRosavieja.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorTurquesa.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorVino.jpg" alt="">
+                <img src="./../../assets/coloresTrapillo/colorAzulrey.jpg" alt="">
+            </div>
             <!--hacer caja de texto para decir que los ramos de flores se pueden personalizar-->
             <div class="catalogoFlores">
                 <div class="tarjeta">

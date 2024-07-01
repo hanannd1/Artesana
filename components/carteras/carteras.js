@@ -1,3 +1,14 @@
+var isOpenNav = false
+function openAndCloseNav(){
+   let navSlide = document.getElementById("navSlide")
+    if (isOpenNav == false){
+        navSlide.style.display = "flex"
+        isOpenNav  = true
+    } else if(isOpenNav  == true){
+        navSlide.style.display = "none"
+        isOpenNav  = false
+    }
+}
 
 var isOpen = false;
 function navOpenAndClose(){
@@ -11,3 +22,15 @@ function navOpenAndClose(){
         isOpen = false
     }
 } 
+function appearBags(){
+    let carteras = document.getElementById("carteras")
+    let accesorios = document.getElementById("accesorios")
+    carteras.style.display = "grid" 
+    accesorios.style.display = "none"
+}
+function appearAccesories(){
+    let carteras = document.getElementById("carteras")
+    let accesorios = document.getElementById("accesorios")
+    carteras.style.display = "none"
+    accesorios.style.display = "grid"
+}

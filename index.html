@@ -8,9 +8,19 @@
     <link rel="stylesheet" href="./normalize.css" type="text/css">
 </head>
 <body>
-    <nav class="navegador">
+    <nav class="navSlide" id="navSlide">
+        <div class="botonNav" onclick="openAndCloseNav()">
+            <img src="./assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
+        </div>
+        <div class="categoriasMenu">
+            <a href="./components/carteras/carteras.html">Carteras</a>
+            <a href="./components/flores/flores.html">Flores</a>
+            <a href="./components/forros-de-laptop/forros-de-laptop.html">Forros de laptop</a>
+        </div>
+    </nav>
+    <div class="navegador">
         <div class="menu">
-            <button class="boton">
+            <button class="boton" onclick="openAndCloseNav()">
                 <img class="imagen" src="./assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
             </button>
         </div>
@@ -19,7 +29,8 @@
         </a>
         <div class="cajainvisible">
         </div>
-    </nav>
+    </div>
+
     <section class="carrusel">
         <div class="contenedorprincipal">
             <img class="imagencontenedorprincipal" src="./assets/aidaBag.jpeg">

@@ -3,7 +3,7 @@
     src: url('./../../assets/HiguenSerif.otf') format('opentype');
 }
 *{
-    font-family: 'fuentePrincipal';
+    font-family: 'fuenteprincipal';
 }
 body{
     overflow-x: hidden;
@@ -30,7 +30,6 @@ body{
 }
 .logotipo{
     color: #7a3a8a;
-    font-family: 'fuenteprincipal';
 }
 .boton{
     background-color: #FFF8F0;

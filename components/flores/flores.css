@@ -34,6 +34,7 @@ body{
 .boton{
     background-color: #FFF8F0;
     border: transparent;
+    cursor: pointer;
 }
 
 

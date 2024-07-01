@@ -2,7 +2,9 @@
     font-family: 'fuenteprincipal';
     src: url('./assets/HiguenSerif.otf') format('opentype');
 }
-
+*{
+    font-family: 'fuentePrincipal';
+}
 html {
     box-sizing: border-box;
 }

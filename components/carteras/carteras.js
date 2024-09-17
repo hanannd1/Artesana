@@ -1,3 +1,4 @@
+window.sr = ScrollReveal();
 var isOpenNav = false
 function openAndCloseNav(){
    let navSlide = document.getElementById("navSlide")
@@ -34,3 +35,27 @@ function appearAccesories(){
     carteras.style.display = "none"
     accesorios.style.display = "grid"
 }
+sr.reveal(".tarjeta",{
+    duration: 2000, 
+    origin: "bottom",
+    distance: "150px",
+    reset: true
+})
+sr.reveal(".portada",{
+    duration: 2000, 
+    origin: "left",
+    distance: "150px",
+    reset: true
+})
+sr.reveal(".botones",{
+    duration: 2000, 
+    origin: "left",
+    distance: "150px",
+    reset: true
+})
+sr.reveal(".botonColores",{
+    duration: 2000, 
+    origin: "left",
+    distance: "150px",
+    reset: true
+})

@@ -15,7 +15,7 @@ body{
     align-items: center;
     display: flex;
     justify-content:space-between ;
-    background-color: #FFF8F0;
+    background-color: #fcdfd4;
 }
 .imagen{
     width: 36px;
@@ -28,10 +28,10 @@ body{
     text-decoration: none;
 }
 .logotipo{
-    color: #7a3a8a;
+    color: #5c2c59;
 }
 .boton{
-    background-color: #FFF8F0;
+    background-color: #fcdfd4;
     border: transparent;
     cursor: pointer;
 }
@@ -42,13 +42,13 @@ body{
     display: none;  
     box-sizing: border-box;
     overflow: hidden;
-    background-color: #FFF8F0;
+    background-color: #fcdfd4;
     position: fixed;
     height: 100%;
     z-index: 1000;
     padding: 10px 30px 10px 10px;
     gap: 15px;
-    border-right: 5px #7a3a8a solid;
+    border-right: 5px #5c2c59 solid;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.80));
     flex-direction: column;
 }
@@ -64,7 +64,7 @@ body{
 }
 .categoriasMenu a{
     text-decoration: none;
-    color: #7a3a8a;
+    color: #5c2c59;
     font-size: 22px;
     font-weight: 800;
 }
@@ -77,7 +77,7 @@ body{
 }
 .portada h2{
     font-size: 40px;
-    color: #7a3a8a;
+    color: #5c2c59;
 }
 .portada p{
     font-size: 20px;
@@ -100,7 +100,7 @@ body{
 }
 .botones button{
     padding: 10px;
-    background-color: #7a3a8a;
+    background-color: #5c2c59;
     color:white ;
     border-radius: 15px;
     outline: none;
@@ -111,8 +111,8 @@ body{
 }
 .botones button:hover{
     background-color: white;
-    color: #7a3a8a;
-    border: 2px #7a3a8a solid;
+    color: #5c2c59;
+    border: 2px #5c2c59 solid;
     transition: all .2s ease;
     
 }
@@ -127,7 +127,7 @@ body{
 }
 .botonColores button{
     padding: 10px;
-    background-color: #7a3a8a;
+    background-color: #5c2c59;
     color:white ;
     border-radius: 15px;
     outline: none;
@@ -138,8 +138,8 @@ body{
 }
 .botonColores button:hover{
     background-color: white;
-    color: #7a3a8a;
-    border: 2px #7a3a8a solid;
+    color: #5c2c59;
+    border: 2px #5c2c59 solid;
     transition: all .2s ease;
 }
 .catalogoFlores{
@@ -162,8 +162,12 @@ body{
     gap: 10px;
     transition: height .6s ease;
 }
+.coloresCarteras div p{
+    text-align: center;
+    
+}
 .coloresCarteras img{
-    margin: 10px;
+    margin: 10px 10px 0px 10px;
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -180,7 +184,7 @@ button{
     width: 200px;
     border-radius: 20px;
     margin-bottom: 10px;
-    border: 2px #FFF8F0 solid;
+    border: 2px #fcdfd4 solid;
     height: 270px;
 }
 .tarjeta{
@@ -190,8 +194,8 @@ button{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #7a3a8a;
-    color: #FFF8F0;
+    background-color: #5c2c59;
+    color: #fcdfd4;
     border-radius: 20px;
     padding: 20px;
     width: 243.3px;
@@ -215,7 +219,7 @@ button{
     padding: 3px 0;
     width: 100%;
     background-color: white;
-    color: #7a3a8a;
+    color: #5c2c59;
     border-radius: 10px;
 }
 
@@ -224,7 +228,7 @@ button{
 
 /*footer*/
 .piedepagina{
-    background-color: #7a3a8a;
+    background-color: #5c2c59;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -236,7 +240,7 @@ button{
     object-fit: cover;
 }
 .footertitle{
-    color: #FFF8F0;
+    color: #fcdfd4;
 }
 .contenidofooter{
     width: 100%;
@@ -249,7 +253,7 @@ button{
     height: 100px;
     width: 5px;
     border-radius: 100px;
-    background-color: #FFF8F0;
+    background-color: #fcdfd4;
     margin: 0 30px;
 
 }

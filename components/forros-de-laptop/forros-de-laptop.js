@@ -22,15 +22,3 @@ function navOpenAndClose(){
         isOpen = false
     }
 } 
-function appearBags(){
-    let carteras = document.getElementById("carteras")
-    let accesorios = document.getElementById("accesorios")
-    carteras.style.display = "grid" 
-    accesorios.style.display = "none"
-}
-function appearAccesories(){
-    let carteras = document.getElementById("carteras")
-    let accesorios = document.getElementById("accesorios")
-    carteras.style.display = "none"
-    accesorios.style.display = "grid"
-}

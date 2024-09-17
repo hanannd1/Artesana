@@ -20,13 +20,13 @@ body {
     display: none;  
     box-sizing: border-box;
     overflow: hidden;
-    background-color: #FFF8F0;
+    background-color: #fcdfd4;
     position: fixed;
     height: 100%;
     z-index: 1000;
     padding: 10px 30px 10px 10px;
     gap: 15px;
-    border-right: 5px #7a3a8a solid;
+    border-right: 5px #5c2c59 solid;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.80));
     flex-direction: column;
 }
@@ -45,7 +45,7 @@ body {
 
 .categoriasMenu a {
     text-decoration: none;
-    color: #7a3a8a;
+    color: #5c2c59;
     font-size: 22px;
     font-weight: 800;
 }
@@ -54,7 +54,7 @@ body {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    background-color: #FFF8F0;
+    background-color: #fcdfd4;
 }
 
 .imagen {
@@ -71,11 +71,11 @@ body {
 }
 
 .logotipo {
-    color: #7a3a8a;
+    color: #5c2c59;
 }
 
 .boton {
-    background-color: #FFF8F0;
+    background-color: #fcdfd4;
     border: transparent;
     cursor: pointer;
 }
@@ -139,7 +139,7 @@ body {
     left: 10px;
     color: white;
     font-size: 15px;
-    background-color: #7a3a8a;
+    background-color: #5c2c59;
     border-radius: 5px;
     padding: 10px;
     width: calc(100% - 30px);
@@ -163,7 +163,7 @@ body {
 }
 
 .palabracatalogo {
-    color: #7a3a8a;
+    color: #5c2c59;
 }
 
 .contenedorenlaces {
@@ -200,7 +200,7 @@ body {
     width: 300px;
 }
 .enlace:hover > .tituloenlace {
-    color: #7a3a8a;
+    color: #5c2c59;
     transform: scale(1.2);
     transition: transform 0.6s ease;
     text-shadow: none;
@@ -220,7 +220,7 @@ body {
 }
 
 .piedepagina {
-    background-color: #7a3a8a;
+    background-color: #5c2c59;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,7 +234,7 @@ body {
 }
 
 .footertitle {
-    color: #FFF8F0;
+    color: #fcdfd4;
 }
 
 .contenidofooter {
@@ -249,7 +249,7 @@ body {
     height: 100px;
     width: 5px;
     border-radius: 100px;
-    background-color: #FFF8F0;
+    background-color: #fcdfd4;
     margin: 0 30px;
 }
 

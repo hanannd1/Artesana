@@ -34,16 +34,7 @@
 .normal{
     animation: snow2 12s linear infinite;
 }
-.big{
-    background-size: 600px 540px;
-    background-position: 0px 90px;
-    animation: snow3 10s linear infinite;
-}
-.giant{
-    background-size: 900px 810px;
-    background-position: 150px 100px;
-    animation: snow4 8s linear infinite;
-}
+
 @keyframes snow1 {
     0%{ background-position: 0px -100px;}
     100%{ background-position: 150px 35px;}

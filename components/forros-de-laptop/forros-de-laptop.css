@@ -232,30 +232,6 @@ button{
     border-radius: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*footer*/
 .piedepagina{
     background-color: #5c2c59;
@@ -291,4 +267,10 @@ ul{
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+@media (max-width: 800px) {
+    .catalogoCarteras{
+        align-content: center;
+    }
 }

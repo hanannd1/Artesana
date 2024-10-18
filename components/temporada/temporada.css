@@ -290,10 +290,10 @@ button{
 
 }
 .tarjeta h3:nth-child(2){
-    font-size: 28px; 
+    font-size: 20px; 
 }
 .tarjeta h3:nth-child(3){
-    font-size: 25px; 
+    font-size: 20px; 
 }
 .tarjeta h3{
     margin: 10px 0;
@@ -303,7 +303,16 @@ button{
     color: #760a0a;
     border-radius: 5px;
 }
-
+.tarjeta h2{
+    margin: 10px 0;
+    padding: 3px 0;
+    width: 100%;
+    background-color: white;
+    color: #760a0a;
+    border-radius: 5px;
+    font-size: 15px;
+}
+}
  #llaveros, #flores, #ornamentos, #stock{
     display: none;
 }

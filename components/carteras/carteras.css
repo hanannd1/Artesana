@@ -251,6 +251,15 @@ button{
     color: #5c2c59;
     border-radius: 10px;
 }
+.tarjeta h2{
+    margin: 10px 0;
+    padding: 3px 0;
+    width: 100%;
+    background-color: white;
+    color: #5c2c59;
+    border-radius: 5px;
+    font-size: 15px;
+}
 
 #accesorios, #stock{
     display: none;

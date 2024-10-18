@@ -63,10 +63,11 @@
             <img src="./../../assets/coloresTrapillo2/colorMarron.bmp" alt="">
         </div>
         <div class="botones">
-            <button onclick="appearBags()">Carteras</button>
-            <button onclick="appearAccesories()">Accesorios</button>
+            <button onclick="apearAndDesapper('apearAndDesapper', 'accesorios','stock' )">Carteras</button>
+            <button onclick="apearAndDesapper('accesorios', 'apearAndDesapper', 'stock')">Accesorios</button>
+            <button onclick="apearAndDesapper('stock', 'apearAndDesapper', 'accesorios')">Stock</button>
         </div>
-        <div class="catalogoCarteras" id="carteras">
+        <div class="catalogoCarteras" id="apearAndDesapper">
             <div class="tarjeta">
                 <img src="./../../assets/laylaBag.jpeg" alt="">
                 <h3>Layla</h3>
@@ -113,7 +114,7 @@
                 <h3>75$</h3>
             </div>
         </div>
-        <div class="catalogoCarteras visto" id="accesorios">
+        <div class="catalogoCarteras" id="accesorios">
             <div class="tarjeta">
                 <img src="./../../assets/accesorios/florPuff.jpeg" alt="">
                 <h3>Llavero flor puff</h3>
@@ -134,6 +135,14 @@
                 <h3>Llavero figuras</h3>
                 <h3>6$ c/u o 2x10$</h3>
             </div>
+        </div>
+        <div class="catalogoCarteras" id="stock">
+            <div class="tarjeta">
+                <img src="./../../assets/accesorios/florPuff.jpeg" alt="">
+                <h3>Llavero flor puff</h3>
+                <h3>6$ o 2x10$</h3>
+            </div>
+            
         </div>
     </section>
     <footer class="piedepagina">

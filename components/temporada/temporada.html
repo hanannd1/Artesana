@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../normalize.css" type="text/css">
+    <link rel="stylesheet" href="./temporada.css" type="text/css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>CATALOGO NAVIDAD</title>
+</head>
+
+<body>
+    <nav class="navSlide" id="navSlide">
+        <div class="botonNav" onclick="openAndCloseNav()">
+            <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
+        </div>
+        <div class="categoriasMenu">
+            <a href="./carteras.html">Carteras</a>
+            <a href="./../flores/flores.html">Flores</a>
+            <a href="./../forros-de-laptop/forros-de-laptop.html">Forros de laptop</a>
+            <a href="./../temporada/temporada.html">Catalogo Navidad</a>
+        </div>
+    </nav>
+    <div class="navegador">
+        <div class="menu">
+            <button class="boton" onclick="openAndCloseNav()">
+                <img class="imagen" src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
+            </button>
+        </div>
+        <a href="./../../index.html" class="cajatitulo">
+            <h2 class="logotipo">ARTESANA</h2>
+        </a>
+        <div class="cajainvisible">
+        </div>
+    </div>
+
+    <section class="cuerpoVista">
+        <div class="portada">
+            <h2>Catalogo de navidad</h2>
+            <p>Conoce nuestros tejidos para esta temporada, tenemos opciones para
+                ambientar tu hogar y para regalar a tus seres queridos</p>
+        </div>
+        <div class="botones">
+            <button onclick="apearAndDesapper('posaPlatos', 'llaveros','flores', 'ornamentos', 'stock' )">Accesorios de
+                comedor</button>
+            <button
+                onclick="apearAndDesapper('llaveros', 'posaPlatos', 'flores', 'ornamentos', 'stock')">LLaveros</button>
+            <button
+                onclick="apearAndDesapper('flores', 'posaPlatos', 'llaveros', 'ornamentos', 'stock')">Flores</button>
+            <button
+                onclick="apearAndDesapper('ornamentos', 'posaPlatos', 'llaveros', 'flores', 'stock')">Ornamentos</button>
+            <button onclick="apearAndDesapper('stock', 'posaPlatos', 'llaveros', 'flores', 'ornamentos')">Stock</button>
+        </div>
+
+        <div class="catalogoCarteras" id="posaPlatos">
+            <div class="tarjeta">
+                <img src="./../../assets/laylaBag.jpeg" alt="">
+                <h3>Layla</h3>
+                <h3>40$</h3>
+            </div>
+        </div>
+        <div class="catalogoCarteras" id="llaveros">
+            <div class="tarjeta">
+                <img src="./../../assets/accesorios/florPuff.jpeg" alt="">
+                <h3>Llavero flor puff</h3>
+                <h3>6$ o 2x10$</h3>
+            </div>
+        </div>
+        <div class="catalogoCarteras" id="flores">
+            <div class="tarjeta">
+                <img src="./../../assets/accesorios/borlaDorada.jpeg" alt="">
+                <h3>Flor</h3>
+                <h3>10$</h3>
+            </div>
+        </div>
+        <div class="catalogoCarteras" id="ornamentos">
+            <div class="tarjeta">
+                <img src="./../../assets/accesorios/borlaDorada.jpeg" alt="">
+                <h3>Ornamento</h3>
+                <h3>10$</h3>
+            </div>
+        </div>
+        <div class="catalogoCarteras" id="stock">
+            <div class="tarjeta">
+                <img src="./../../assets/accesorios/borlaDorada.jpeg" alt="">
+                <h3>Stock</h3>
+                <h3>10$</h3>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer class="piedepagina">
+        <div class="contenidofooter">
+            <h2 class="logotipo footertitle">ARTESANA</h2>
+            <div class="linea"></div>
+            <ul>
+                <li>
+                    <a href="https://wa.link/76fgft">
+                        <img class="icono-enlace" src="./../../assets/icono-whatsapp.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/artesana.mcbo?igsh=NDFnMzkzM21vdTk0">
+                        <img class="icono-enlace" src="./../../assets/icono-instagram.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./temporada.js"> </script>
+</html>

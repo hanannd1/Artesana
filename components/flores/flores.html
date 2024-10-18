@@ -1,170 +1,236 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./../../normalize.css" type="text/css">
-        <link rel="stylesheet" href="./flores.css" type="text/css">
-        <title>Flores tejidas</title>
-    </head>
-    <body>
-        <nav class="navSlide" id="navSlide">
-            <div class="botonNav" onclick="openAndCloseNav()">
-                <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
-            </div>
-            <div class="categoriasMenu">
-                <a href="./../carteras/carteras.html">Carteras</a>
-                <a href="./flores.html">Flores</a>
-                <a href="./../forros-de-laptop/forros-de-laptop.html">Forros de laptop</a>
-            </div>
-        </nav>
-        <div class="navegador">
-            <div class="menu">
-                <button class="boton" onclick="openAndCloseNav()">
-                    <img class="imagen" src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
-                </button>
-            </div>
-            <a href="./../../index.html" class="cajatitulo">
-                <h2 class="logotipo">ARTESANA</h2>
-            </a>
-            <div class="cajainvisible">
-            </div>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../normalize.css" type="text/css">
+    <link rel="stylesheet" href="./flores.css" type="text/css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Flores tejidas</title>
+</head>
+
+<body>
+    <nav class="navSlide" id="navSlide">
+        <div class="botonNav" onclick="openAndCloseNav()">
+            <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
         </div>
-        <section class="cuerpoVista">
-            <div class="portada">
-                <h2>Flores tejidas</h2>
-                <p>En nuestra coleccion de flores eternas, encontraras piezas unicas tejidas
-                    a crochet que capturan la belleza sin marchitarse. Son perfectas para decorar tu espacio o para
-                    regalar algo especial que dure para siempre. Cada flor es hecha con cuidado y detalle, asegurando
-                    que llevaras un producto de calidad que no encontraras en ningun otro lugar. <br>
-                    <br>Por favor realiza tu pedido con al menos 3 dias de anticipacion<br>
-                     <br>Todos los ramos se pueden personalizar con la cantidad de flores y colores que desees <br> 
-                    <br>  Los bouquets funcionan de la siguiente manera:
-                </p>
-                <ul>
-                    <li>A partir de 3 tulipanes en un mismo bouquet, cada tulipan adicional costara 3.5 dolares</li>
-                    <li>A partir de 3 claveles en un mismo bouquet, cada clavel adicional costara 4.5 dolares</li>
-                </ul>
+        <div class="categoriasMenu">
+            <a href="./../carteras/carteras.html">Carteras</a>
+            <a href="./flores.html">Flores</a>
+            <a href="./../forros-de-laptop/forros-de-laptop.html">Forros de laptop</a>
+        </div>
+    </nav>
+    <div class="navegador">
+        <div class="menu">
+            <button class="boton" onclick="openAndCloseNav()">
+                <img class="imagen" src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
+            </button>
+        </div>
+        <a href="./../../index.html" class="cajatitulo">
+            <h2 class="logotipo">ARTESANA</h2>
+        </a>
+        <div class="cajainvisible">
+        </div>
+    </div>
+    <section class="cuerpoVista">
+        <div class="portada">
+            <h2>Flores tejidas</h2>
+            <p>Cada flor es hecha con cuidado y detalle, asegurando
+                que llevaras un producto de calidad que no encontraras en ningun otro lugar. <br>
+                <br>Por favor realiza tu pedido con al menos 3 dias de anticipacion<br>
+                <br>Todos los ramos se pueden personalizar con la cantidad de flores y colores que desees <br>
+                <br> Los bouquets funcionan de la siguiente manera:
+            </p>
+            <ul>
+                <li>A partir de 3 tulipanes en un mismo bouquet, cada tulipan adicional costara 3.5 dolares</li>
+                <li>A partir de 3 claveles en un mismo bouquet, cada clavel adicional costara 4.5 dolares</li>
+            </ul>
+        </div>
+        <div class="botonColores">
+            <button onclick="navOpenAndClose()">Ver colores disponibles</button>
+        </div>
+        <div class="coloresFlores" id="coloresFlores">
+            <div>
+                <img src="./../../assets/coloresFlores/colorAmarillo.jpeg" alt="">
+                <p>Amarillo</p>
             </div>
             <div>
+                <img src="./../../assets/coloresFlores/colorAmarilloOscuro.jpeg" alt="">
+                <p>Amarillo <br> Oscuro</p>
             </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorCeleste.jpeg" alt="">
+                <p>Celeste</p>
             </div>
-            <div class="botonColores">
-                <button onclick="navOpenAndClose()">Ver colores disponibles</button>
+            <div>
+                <img src="./../../assets/coloresFlores/colorTurquesa.jpeg" alt="">
+                <p>Turquesa</p>
             </div>
-            <div class="coloresCarteras" id="coloresCarteras">
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorAzul.bmp" alt="">
-                    <p>Azul</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorCian.bmp" alt="">
-                    <p>Cian</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorFucsia.bmp" alt="">
-                    <p>Fucsia</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorHueso.bmp" alt="">
-                    <p>Hueso</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorMagenta.bmp" alt="">
-                    <p>Magenta</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorMelocoton.bmp" alt="">
-                    <p>Melocoton</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorMora.bmp" alt="">
-                    <p>Mora</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorNegro.bmp" alt="">
-                    <p>Negro</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorNieve.bmp" alt="">
-                    <p>Nieve</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorOliva.bmp" alt="">
-                    <p>Oliva</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorPistacho.bmp" alt="">
-                    <p>Pistacho</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorRosavieja.bmp" alt="">
-                    <p>Rosa Vieja</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorTurquesa.bmp" alt="">
-                    <p>Turquesa</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorVino.bmp" alt="">
-                    <p>Vino</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorAzulrey.bmp" alt="">
-                    <p>Azul Rey</p>
-                </div>
-                <div>
-                    <img src="./../../assets/coloresTrapillo2/colorMarron.bmp" alt="">
-                    <p>Marron</p>
-                </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorAzulRey.jpeg" alt="">
+                <p>Azul <br> Rey</p>
             </div>
-            <!--hacer caja de texto para decir que los ramos de flores se pueden personalizar-->
-            <div class="catalogoFlores">
-                <div class="tarjeta">
-                    <img src="./../../assets/flores/bouquetTresFlores.jpeg" alt="">
-                    <h3>Bouquet de 3 tulipanes</h3>
-                    <h3>11$</h3>
-                </div>
-                <div class="tarjeta">
-                    <img src="./../../assets/flores/bouquetTulipanIndividual.bmp" alt="">
-                    <h3>Bouquet de tulipan individual</h3>
-                    <h3>5$</h3>
-                </div>
-                <div class="tarjeta">
-                    <img src="./../../assets/flores/tulipanIndividualSencillo.bmp" alt="">
-                    <h3>Tulipan individual sencillo</h3>
-                    <h3>4$</h3>
-                </div>
-                <div class="tarjeta">
-                    <img src="./../../assets/flores/tulipanYlavanda.bmp" alt="">
-                    <h3>Tulipan + lavanda</h3>
-                    <h3>6$</h3>
-                </div>
-                <div class="tarjeta">
-                    <img src="./../../assets/flores/clavelSencillo.bmp" alt="">
-                    <h3>Clavel sencillo</h3>
-                    <h3>5$</h3>
-                </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorAzulOscuro.jpeg" alt="">
+                <p>Azul <br> oscuro</p>
             </div>
-        </section>
-        <footer class="piedepagina">
-            <div class="contenidofooter">
-                <h2 class="logotipo footertitle">ARTESANA</h2>
-                <div class="linea"></div>
-                <ul>
-                    <li>
-                        <a href="https://wa.link/76fgft">
-                            <img class="icono-enlace" src="./../../assets/icono-whatsapp.png">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/artesana.mcbo?igsh=NDFnMzkzM21vdTk0">
-                            <img class="icono-enlace" src="./../../assets/icono-instagram.png">
-                        </a>
-                    </li>
-                </ul>
+            <div>
+                <img src="./../../assets/coloresFlores/colorLila.jpeg" alt="">
+                <p>Lila</p>
             </div>
-        </footer>
-    </body>
-    <script src="./flores.js"></script>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRosadoPastel.jpeg" alt="">
+                <p>Rosado <br> Pastel</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRosado.jpeg">
+                <p>Rosado</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRosadoFuerte.jpeg" alt="">
+                <p>Rosado <br> Chicle</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorMagenta.jpeg" alt="">
+                <p>Magenta</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRojo.jpeg" alt="">
+                <p>Rojo</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorNaranja.jpeg" alt="">
+                <p>Naranja</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorVino.jpeg" alt="">
+                <p>Vino</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorBeige.jpeg" alt="">
+                <p>Beige</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorMarron.jpeg" alt="">
+                <p>Marron</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorBlanco.jpeg" alt="">
+                <p>Blanco</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorNegro.jpeg" alt="">
+                <p>Negro</p>
+            </div>
+        </div>
+        <div class="botones">
+            <button onclick="apearAndDesapper('flores', 'complementos', 'bouquetsEspeciales')">Flores</button>
+            <button onclick="apearAndDesapper('complementos', 'flores', 'bouquetsEspeciales')">Complementos</button>
+            <button onclick="apearAndDesapper('bouquetsEspeciales', 'complementos', 'flores')">Bouquets especiales</button>
+        </div>
+        <!--hacer caja de texto para decir que los ramos de flores se pueden personalizar-->
+        <div class="catalogoFlores" id="flores">
+            <div class="tarjeta">
+                <img src="./../../assets/flores/tulipanIndividualSencillo.bmp" alt="">
+                <h3>Tulipan individual sencillo</h3>
+                <h3>4$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/bouquetTulipanIndividual.bmp" alt="">
+                <h3>Bouquet de tulipan individual</h3>
+                <h3>5$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/bouquetTresFlores.jpeg" alt="">
+                <h3>Bouquet de 3 tulipanes</h3>
+                <h3>15$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/tulipanYlavanda.bmp" alt="">
+                <h3>Tulipan + lavanda</h3>
+                <h3>6$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/clavelSencillo.bmp" alt="">
+                <h3>Clavel sencillo</h3>
+                <h3>5$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/girasolBouquet.jpeg" alt="">
+                <h3>Girasol grande</h3>
+                <h3>12$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/rosaBouquet.jpeg" alt="">
+                <h3>Peonia bouquet</h3>
+                <h3>8$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/rosaPremiumBouquet.jpeg" alt="">
+                <h3>Rosa bouquet</h3>
+                <h3>10$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/gerberaBouquet.jpeg" alt="">
+                <h3>Gerbera grande bouquet</h3>
+                <h3>10$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/rapunzelMini.jpeg" alt="">
+                <h3>Lirio magico de Rapunzel (mini)</h3>
+                <h3>10$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/rapunzelGrandeBouquet.jpeg" alt="">
+                <h3>Lirio magico de Rapunzel (grande)</h3>
+                <h3>16$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/tulipanMaceta.jpeg" alt="">
+                <h3>Tulipan en maceta</h3>
+                <h3>9$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/girasolMaceta.jpeg" alt="">
+                <h3>Girasol en maceta</h3>
+                <h3>9$</h3>
+            </div>
+        </div>
+        <div class="catalogoFlores" id="complementos">
+            <div class="tarjeta">
+                <img src="./../../assets/flores/abejita.jpeg" alt="">
+                <h3>abejita</h3>
+                <h3>4$</h3>
+            </div>
+        </div>
+        <div class="catalogoFlores" id="bouquetsEspeciales">
+            <div class="tarjeta">
+                <img src="./../../assets/flores/tresTulipanesGirasolBouquet.jpeg" alt="">
+                <h3>Bouquet de 3 tulipanes + girasol</h3>
+                <h3>27$</h3>
+            </div>
+        </div>
+    </section>
+    <footer class="piedepagina">
+        <div class="contenidofooter">
+            <h2 class="logotipo footertitle">ARTESANA</h2>
+            <div class="linea"></div>
+            <ul>
+                <li>
+                    <a href="https://wa.link/76fgft">
+                        <img class="icono-enlace" src="./../../assets/icono-whatsapp.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/artesana.mcbo?igsh=NDFnMzkzM21vdTk0">
+                        <img class="icono-enlace" src="./../../assets/icono-instagram.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./flores.js"></script>
+
 </html>

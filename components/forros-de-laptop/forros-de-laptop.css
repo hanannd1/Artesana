@@ -39,8 +39,9 @@ body{
 
 
 /* Cuerpo  */
-.navSlide{
-    display: none;  
+
+.navSlide {
+    display: flex;
     box-sizing: border-box;
     overflow: hidden;
     background-color: #fcdfd4;
@@ -52,7 +53,17 @@ body{
     border-right: 5px #5c2c59 solid;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.80));
     flex-direction: column;
+
+    left: -300px;
+    width: 300px;
+
+    transition: transform 0.3s ease-in-out;
 }
+
+.navSlide.open {
+    transform: translateX(300px); 
+}
+
 .botonNav img{
     width: 36px;
     object-fit: cover;

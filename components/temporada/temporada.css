@@ -11,29 +11,30 @@ body{
     width: 100vw;
     height:fit-content;
 }
+.cajatitulo{
+    text-decoration: none;
+}
 .navegador{
     align-items: center;
     display: flex;
     justify-content:space-between ;
-    background-color: #fcdfd4;
+    background-color: #e5b627d6;
 }
 .imagen{
     width: 36px;
     object-fit: cover;
+    
 }
 .cajainvisible{
     width: 36px;
 }
-.cajatitulo{
-    text-decoration: none;
-}
 .logotipo{
-    color: #5c2c59;
+    color: white; 
 }
 .boton{
-    background-color: #fcdfd4;
-    border: transparent;
+    background-color: #ebbc3000;
     cursor: pointer;
+    border: transparent;
 }
 
 
@@ -43,7 +44,7 @@ body{
     display: flex;
     box-sizing: border-box;
     overflow: hidden;
-    background-color: #fcdfd4;
+    background-color: white;
     position: fixed;
     height: 100%;
     z-index: 1000;
@@ -80,6 +81,38 @@ body{
     font-weight: 800;
 }
 
+.coloresTemporada{
+    display:flex;
+    height: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-flow: wrap row;
+    gap: 2px 10px;
+    transition: height .6s ease;
+}
+.coloresTemporada div p{
+    text-align: center;
+    
+}
+.coloresTemporada img{
+    margin: 10px 10px 0px 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: 0 -22px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+}
+.coloresTemporada div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coloresTemporada h3{
+    margin-top: 2px;
+}
 .cuerpoVista{
     width: 100%;
     overflow: hidden;
@@ -88,45 +121,14 @@ body{
 }
 .portada h2{
     font-size: 40px;
-    color: #5c2c59;
+    color: #760a0a;
+       
 }
 .portada p{
     font-size: 20px;
+    color: #760a0a;
 }
-.portada ul{
-    font-size: 20px;
-}
-.portada li{
-    margin-bottom: 8px;
-}
-.botones{
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    gap: 20px;
-    display: flex;
-    margin-bottom: 15px;
-    padding: 10px;
 
-}
-.botones button{
-    padding: 10px;
-    background-color: #5c2c59;
-    color:white ;
-    border-radius: 15px;
-    outline: none;
-    font-size: 18px;
-    border: 2px transparent solid;
-    transition: all .2s ease;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
-}
-.botones button:hover{
-    background-color: white;
-    color: #5c2c59;
-    border: 2px #5c2c59 solid;
-    transition: all .2s ease;
-    
-}
 .botonColores{
     width: 100%;
     overflow: hidden;
@@ -138,7 +140,46 @@ body{
 }
 .botonColores button{
     padding: 10px;
-    background-color: #5c2c59;
+    background-color: #e5b627d6;
+    color:white ;
+    border-radius: 15px;
+    outline: none;
+    font-size: 18px;
+    border: 2px transparent solid;
+    transition: all .2s ease;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+    font-weight: bold;
+}
+.botonColores button:hover{
+    background-color: white;
+    color: #e5b627d6;
+    border: 2px #e5b627d6 solid;
+    transition: all .2s ease;
+    
+}
+.botones{
+    width: 100%;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+    gap: 20px;
+    display: flex;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-weight: bold;
+
+}
+.botones::-webkit-scrollbar {
+    display: none; /* Para Chrome, Safari y otros navegadores basados en WebKit */
+  }
+button{
+    cursor: pointer;
+}
+.botones button{
+    padding: 10px;
+    background-color: #e5b627d6;
+    font-weight: bold;
     color:white ;
     border-radius: 15px;
     outline: none;
@@ -147,13 +188,14 @@ body{
     transition: all .2s ease;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
 }
-.botonColores button:hover{
+.botones button:hover{
     background-color: white;
-    color: #5c2c59;
-    border: 2px #5c2c59 solid;
+    color: #e5b627d6;
+    border: 2px #e5b627d6 solid;
     transition: all .2s ease;
+    
 }
-.catalogoFlores{
+.catalogoTemporada{
     padding: 10px;
     width: 100%;
     height: fit-content;
@@ -163,39 +205,28 @@ body{
     justify-items: center;
     gap: 40px;
     margin-bottom: 30px ;
-}
-.coloresFlores{
-    display:flex;
-    height: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    flex-flow: wrap row;
-    gap: 10px;
-    transition: height .6s ease;
-}
-.coloresFlores div p{
-    text-align: center;
     
 }
-.coloresFlores img{
-    margin: 10px 10px 0px 10px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    object-position: 0 -22px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
-
+.catalogoTemporadaStock{
+    padding: 10px;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns:  repeat(auto-fill, minmax(243.3px, 1fr));
+    justify-items: center;
+    gap: 40px;
+    margin-bottom: 30px ;
+    
 }
-button{
-    cursor: pointer;
+.visto{
+    display: none;
 }
 .tarjeta img{
     width: 200px;
     border-radius: 20px;
     margin-bottom: 10px;
-    border: 2px #fcdfd4 solid;
+    border: 2px #760a0a solid;
     height: 270px;
 }
 .tarjeta{
@@ -205,13 +236,12 @@ button{
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #5c2c59;
-    color: #fcdfd4;
+    background-color:#e5b627d6;
     border-radius: 20px;
     padding: 20px;
     width: 243.3px;
     transition: transform 0.5s ease;
-
+    margin: 15px;
 }
 .tarjeta:hover{
     transition: all 0.5s ease;
@@ -230,47 +260,55 @@ button{
     padding: 3px 0;
     width: 100%;
     background-color: white;
-    color: #5c2c59;
-    border-radius: 10px;
+    color: #760a0a;
+    border-radius: 5px;
 }
 
-#bouquetsEspeciales, #complementos{
+ #llaveros, #flores, #ornamentos, #stock{
     display: none;
 }
-
-/*footer*/
-.piedepagina{
-    background-color: #5c2c59;
+.piedepagina {
+    background-color: #e5b627d6;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
 }
-.icono-enlace{
+.icono-enlace {
     width: 40px;
     height: 40px;
     object-fit: cover;
 }
-.footertitle{
-    color: #fcdfd4;
+
+.footertitle {
+    color: white;
 }
-.contenidofooter{
+
+.contenidofooter {
     width: 100%;
     display: flex;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
 }
-.linea{
+
+.linea {
     height: 100px;
     width: 5px;
     border-radius: 100px;
-    background-color: #fcdfd4;
+    background-color: white;
     margin: 0 30px;
-
 }
-.contenidofooter ul{
+
+ul {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+.tituloenlace {
+    color: #386641;
+    font-size: 40px;
+    transform: scale(1);
+    transition: transform .6s ease;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }

@@ -1,12 +1,12 @@
 var isOpenNav = false
-function openAndCloseNav(){
-   let navSlide = document.getElementById("navSlide")
-    if (isOpenNav == false){
-        navSlide.style.display = "flex"
-        isOpenNav  = true
-    } else if(isOpenNav  == true){
-        navSlide.style.display = "none"
-        isOpenNav  = false
+function openAndCloseNav() {
+    let navSlide = document.getElementById("navSlide");
+    if (!isOpenNav) {
+        navSlide.classList.add("open"); 
+        isOpenNav = true;
+    } else {
+        navSlide.classList.remove("open"); 
+        isOpenNav = false;
     }
 }
 

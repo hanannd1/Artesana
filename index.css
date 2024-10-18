@@ -17,7 +17,7 @@ body {
 }
 
 .navSlide {
-    display: none;  
+    display: flex;
     box-sizing: border-box;
     overflow: hidden;
     background-color: #fcdfd4;
@@ -29,7 +29,17 @@ body {
     border-right: 5px #5c2c59 solid;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.80));
     flex-direction: column;
+
+    left: -300px;
+    width: 300px;
+
+    transition: transform 0.3s ease-in-out;
 }
+
+.navSlide.open {
+    transform: translateX(300px); 
+}
+
 
 .botonNav img {
     width: 36px;
@@ -108,6 +118,10 @@ body {
 }
 
 .contenedorprincipal:nth-child(3) {
+    animation: carrousel 15s infinite -10s;
+}
+
+.contenedorprincipal:nth-child(4) {
     animation: carrousel 15s infinite -10s;
 }
 

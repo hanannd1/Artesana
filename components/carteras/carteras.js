@@ -1,13 +1,13 @@
 window.sr = ScrollReveal();
 var isOpenNav = false
-function openAndCloseNav(){
-   let navSlide = document.getElementById("navSlide")
-    if (isOpenNav == false){
-        navSlide.style.display = "flex"
-        isOpenNav  = true
-    } else if(isOpenNav  == true){
-        navSlide.style.display = "none"
-        isOpenNav  = false
+function openAndCloseNav() {
+    let navSlide = document.getElementById("navSlide");
+    if (!isOpenNav) {
+        navSlide.classList.add("open"); 
+        isOpenNav = true;
+    } else {
+        navSlide.classList.remove("open"); 
+        isOpenNav = false;
     }
 }
 
@@ -23,24 +23,19 @@ function navOpenAndClose(){
         isOpen = false
     }
 } 
-function appearBags(){
-    let carteras = document.getElementById("carteras")
-    let accesorios = document.getElementById("accesorios")
-    carteras.style.display = "grid" 
-    accesorios.style.display = "none"
+function apearAndDesapper(showid, hideid1, hideid2){
+    let show = document.getElementById(`${showid}`);
+    let hide1 = document.getElementById(`${hideid1}`);
+    let hide2 = document.getElementById(`${hideid2}`);
+
+
+    show.style.display = "grid";
+    hide1.style.display = "none";
+    hide2.style.display = "none";
+    
 }
-function appearAccesories(){
-    let carteras = document.getElementById("carteras")
-    let accesorios = document.getElementById("accesorios")
-    carteras.style.display = "none"
-    accesorios.style.display = "grid"
-}
-sr.reveal(".tarjeta",{
-    duration: 2000, 
-    origin: "bottom",
-    distance: "150px",
-    reset: true
-})
+
+
 sr.reveal(".portada",{
     duration: 2000, 
     origin: "left",

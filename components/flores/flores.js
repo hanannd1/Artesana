@@ -12,15 +12,17 @@ function openAndCloseNav() {
     }
 }
 
-function apearAndDesapper(showid, hideid1, hideid2){
+function apearAndDesapper(showid, hideid1, hideid2, hideid3){
     let show = document.getElementById(`${showid}`);
     let hide1 = document.getElementById(`${hideid1}`);
     let hide2 = document.getElementById(`${hideid2}`);
+    let hide3 = document.getElementById(`${hideid3}`);
 
 
     show.style.display = "grid";
     hide1.style.display = "none";
     hide2.style.display = "none";
+    hide3.style.display = "none"
 }
 
 sr.reveal(".portada",{

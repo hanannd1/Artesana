@@ -153,10 +153,9 @@ body{
 }
 .botones{
     width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
     gap: 20px;
     display: flex;
+    flex-flow: row wrap;
     margin-bottom: 15px;
     padding: 10px;
 

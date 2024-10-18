@@ -1,9 +1,9 @@
 @font-face {
-    font-family: 'fuentePrincipal';
-    src: url('./../../assets/HiguenSerif.otf') format('otf');
+    font-family: 'fuenteprincipal';
+    src: url('./../../assets/HiguenSerif.otf') format('opentype');
 }
 *{
-    font-family: 'fuentePrincipal';
+    font-family: 'fuenteprincipal';
 }
 body{
     overflow-x: hidden;
@@ -185,6 +185,7 @@ button{
     gap: 40px;
     margin-bottom: 30px ;
     
+    
 }
 .visto{
     display: none;
@@ -239,6 +240,7 @@ button{
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-top: 30px ;
 }
 .icono-enlace{
     width: 40px;

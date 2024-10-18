@@ -37,16 +37,9 @@
     <section class="cuerpoVista">
         <div class="portada">
             <h2>Flores tejidas</h2>
-            <p>Cada flor es hecha con cuidado y detalle, asegurando
-                que llevaras un producto de calidad que no encontraras en ningun otro lugar. <br>
                 <br>Por favor realiza tu pedido con al menos 3 dias de anticipacion<br>
                 <br>Todos los ramos se pueden personalizar con la cantidad de flores y colores que desees <br>
-                <br> Los bouquets funcionan de la siguiente manera:
             </p>
-            <ul>
-                <li>A partir de 3 tulipanes en un mismo bouquet, cada tulipan adicional costara 3.5 dolares</li>
-                <li>A partir de 3 claveles en un mismo bouquet, cada clavel adicional costara 4.5 dolares</li>
-            </ul>
         </div>
         <div class="botonColores">
             <button onclick="navOpenAndClose()">Ver colores disponibles</button>
@@ -126,9 +119,10 @@
             </div>
         </div>
         <div class="botones">
-            <button onclick="apearAndDesapper('flores', 'complementos', 'bouquetsEspeciales')">Flores</button>
-            <button onclick="apearAndDesapper('complementos', 'flores', 'bouquetsEspeciales')">Complementos</button>
-            <button onclick="apearAndDesapper('bouquetsEspeciales', 'complementos', 'flores')">Bouquets especiales</button>
+            <button onclick="apearAndDesapper('flores', 'complementos', 'bouquetsEspeciales', 'stock')">Flores</button>
+            <button onclick="apearAndDesapper('complementos', 'flores', 'bouquetsEspeciales', 'stock')">Complementos</button>
+            <button onclick="apearAndDesapper('bouquetsEspeciales', 'complementos', 'flores', 'stock')">Bouquets especiales</button>
+            <button onclick="apearAndDesapper('stock', 'bouquetsEspeciales', 'complementos', 'flores')">Stock</button>
         </div>
         <!--hacer caja de texto para decir que los ramos de flores se pueden personalizar-->
         <div class="catalogoFlores" id="flores">
@@ -137,7 +131,7 @@
                 <h3>Corazon en maceta con luces de hadas led </h3>
                 <h2>cuenta con 37 flores tejidas y mide 20cm de alto <br>
                 Pidelo en la combinacion de colores que desees</h2>
-                <h2>20$</h2>
+                <h3>20$</h3>
             </div>
             <div class="tarjeta">
                 <img src="./../../assets/flores/tulipanIndividualSencillo.bmp" alt="">
@@ -152,12 +146,13 @@
             <div class="tarjeta">
                 <img src="./../../assets/flores/bouquetTresFlores.jpeg" alt="">
                 <h3>Bouquet de 3 tulipanes</h3>
+                <h2>4$ por cada tulipan adcional</h2>
                 <h3>15$</h3>
             </div>
             <div class="tarjeta">
                 <img src="./../../assets/flores/tulipanYlavanda.bmp" alt="">
                 <h3>Tulipan + lavanda</h3>
-                <h3>6$</h3>
+                <h3>7$</h3>
             </div>
             <div class="tarjeta">
                 <img src="./../../assets/flores/clavelSencillo.bmp" alt="">
@@ -171,12 +166,13 @@
             </div>
             <div class="tarjeta">
                 <img src="./../../assets/flores/rosaBouquet.jpeg" alt="">
-                <h3>Peonia bouquet</h3>
+                <h3>Rosa bouquet</h3>
                 <h3>8$</h3>
             </div>
             <div class="tarjeta">
                 <img src="./../../assets/flores/rosaPremiumBouquet.jpeg" alt="">
-                <h3>Rosa bouquet</h3>
+                <h3>Rosa premium bouquet</h3>
+                <h2>Rosa grande y con mas volumen tejida petalo a petalo</h2>
                 <h3>10$</h3>
             </div>
             <div class="tarjeta">
@@ -186,22 +182,26 @@
             </div>
             <div class="tarjeta">
                 <img src="./../../assets/flores/rapunzelMini.jpeg" alt="">
-                <h3>Lirio magico de Rapunzel (mini)</h3>
+                <h3>Lirio magico de Rapunzel</h3>
+                <h2>mediano</h2>
                 <h3>10$</h3>
             </div>
             <div class="tarjeta">
                 <img src="./../../assets/flores/rapunzelGrandeBouquet.jpeg" alt="">
-                <h3>Lirio magico de Rapunzel (grande)</h3>
+                <h3>Lirio magico de Rapunzel</h3>
+                <h2>Grande, cada pedtalo mide 16cm</h2>
                 <h3>16$</h3>
             </div>
             <div class="tarjeta">
                 <img src="./../../assets/flores/tulipanMaceta.jpeg" alt="">
                 <h3>Tulipan en maceta</h3>
+                <h2>puedes personalizar el color del tulipan y la maceta</h2>
                 <h3>9$</h3>
             </div>
             <div class="tarjeta">
                 <img src="./../../assets/flores/girasolMaceta.jpeg" alt="">
                 <h3>Girasol en maceta</h3>
+                <h2>puedes personalizar el color de la maceta</h2>
                 <h3>9$</h3>
             </div>
         </div>
@@ -216,7 +216,41 @@
             <div class="tarjeta">
                 <img src="./../../assets/flores/tresTulipanesGirasolBouquet.jpeg" alt="">
                 <h3>Bouquet de 3 tulipanes + girasol</h3>
-                <h3>27$</h3>
+                <h2>puedes pedir los tulipanes del color que desees</h2>
+                <h3>26$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/tresTulipanesAbejaBouquet.jpeg" alt="">
+                <h3>Bouquet de 3 tulipanes + abejita</h3>
+                <h2>puedes pedir los tulipanes del color que desees</h2>
+                <h3>19$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/tulipanClavelBouquet.jpeg" alt="">
+                <h3>Bouquet clavel + tulipan</h3>
+                <h2>puedes pedir las flores del color que desees</h2>
+                <h3>11$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/bouquet3lirios.jpeg" alt="">
+                <h3>Bouquet de 3 lirios</h3>
+                <h2>Pide los lirios del color que desees</h2>
+                <h3>21$</h3>
+            </div>
+        </div>
+        <div class="catalogoFlores" id="stock">
+            <div class="tarjeta">
+                <img src="./../../assets/flores/bouquet3lirios.jpeg" alt="">
+                <h3>3 lirios azules</h3>
+                <h2>disponible en los colores de la imagen</h2>
+                <h3>cada lirio 7$ <br>Bouquet de 3 lirios 21$ </h3>
+            </div>
+            <div class="tarjeta">
+            <img src="./../../assets/navidad/flores/corazonLuminoso.jpeg" alt="">
+                <h3>Corazon en maceta con luces de hadas led </h3>
+                <h2>Con 37 flores tejidas, mide 20 cm de alto y 
+                    está disponible en rosado y blanco.</h2>
+                <h3>20$</h3>
             </div>
         </div>
     </section>

@@ -56,7 +56,57 @@ function animateContainer(containerId) {
     }, 50); 
 }
 
+function getTimeAndDoSomething(){
+    const navidadNav = document.getElementById('Navidad')
 
+    const ramadanNav = document.getElementById('Ramadan')
+
+    const sanValentinNav = document.getElementById('SanValentin')
+
+    const diaMadresNav = document.getElementById('DiaMadres')
+    
+    const dianMujeresNav = document.getElementById('DiaMujeres')
+
+    const diaFloresAmarrillasNav = document.getElementById('DiaFloresAmarrillas')
+
+
+    const fecha = new Date();
+    const mesActual = fecha.getMonth() + 1
+
+
+    ramadanNav.style.display = 'none';
+    sanValentinNav.style.display = 'none';
+    diaMadresNav.style.display = 'none';
+    dianMujeresNav.style.display = 'none';
+    diaFloresAmarrillasNav.style.display = 'none';
+    navidadNav.style.display = 'none';
+
+    if(mesActual >= 10 && mesActual < 12 ){
+        navidadNav.style.display = 'flex'
+    }
+
+    if(mesActual >= 2 && mesActual < 3 ){
+        ramadanNav.style.display = 'flex';
+    }
+
+    if(mesActual >= 1 && mesActual < 2 ){
+        sanValentinCat.style.display = 'flex';
+    }
+
+    if(mesActual >= 4 && mesActual < 5 ){
+        diaMadresNav.style.display = 'flex';
+    }
+
+    if(mesActual >= 2 && mesActual < 3 ){
+        dianMujeresNav.style.display = 'flex';
+    }
+
+    if(mesActual == 3 || mesActual < 9 ){
+        diaFloresAmarrillasNav.style.display = 'flex';
+    }
+}
+
+getTimeAndDoSomething()
 
 sr.reveal(".cuerpoVista",{
     duration: 2000, 

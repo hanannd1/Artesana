@@ -210,7 +210,7 @@ button{
     padding: 20px;
     width: 243.3px;
     transition: transform 0.5s ease;
-
+    height: fit-content;
 }
 .tarjeta:hover{
     transition: all 0.5s ease;
@@ -275,6 +275,11 @@ button{
     background-color: #fcdfd4;
     margin: 0 30px;
 
+}
+.icono-enlace-nav{
+    width: 30px;
+    height: 30px;
+    object-fit: cover; 
 }
 .contenidofooter ul{
     list-style: none;

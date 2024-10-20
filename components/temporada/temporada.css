@@ -282,6 +282,7 @@ button{
     width: 243.3px;
     transition: transform 0.5s ease;
     margin: 15px;
+    height: fit-content;
 }
 .tarjeta:hover{
     transition: all 0.5s ease;
@@ -326,6 +327,11 @@ button{
     width: 40px;
     height: 40px;
     object-fit: cover;
+}
+.icono-enlace-nav{
+    width: 30px;
+    height: 30px;
+    object-fit: cover; 
 }
 
 .footertitle {

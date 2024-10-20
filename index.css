@@ -65,6 +65,7 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #fcdfd4;
+    margin-bottom: 20px;
 }
 
 .imagen {
@@ -246,6 +247,11 @@ body {
     height: 40px;
     object-fit: cover;
 }
+.icono-enlace-nav{
+    width: 30px;
+    height: 30px;
+    object-fit: cover; 
+}
 
 .footertitle {
     color: #fcdfd4;
@@ -293,5 +299,11 @@ ul {
     }
     90%, 100%{
         transform: translateX(-1000px) scale(0.5) ;
+    }
+}
+
+@media (max-width: 800px) {
+    .catalogo{
+        margin-top: -50px;
     }
 }

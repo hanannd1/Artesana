@@ -1,3 +1,5 @@
+window.sr = ScrollReveal()
+
 var isOpenNav = false
 function openAndCloseNav() {
     let navSlide = document.getElementById("navSlide");
@@ -22,3 +24,10 @@ function navOpenAndClose(){
         isOpen = false
     }
 } 
+
+sr.reveal(".cuerpoVista",{
+    duration: 2000, 
+    origin: "left",
+    distance: "150px",
+    reset: true
+})

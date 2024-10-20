@@ -28,27 +28,29 @@ function apearAndDesapper(showid, hideid1, hideid2){
     let hide1 = document.getElementById(`${hideid1}`);
     let hide2 = document.getElementById(`${hideid2}`);
 
-
+    animateContainer(showid)
     show.style.display = "grid";
     hide1.style.display = "none";
     hide2.style.display = "none";
     
 }
 
+function animateContainer(containerId) {
+    const container = document.getElementById(containerId);
+    if (!container) return;
 
-sr.reveal(".portada",{
-    duration: 2000, 
-    origin: "left",
-    distance: "150px",
-    reset: true
-})
-sr.reveal(".botones",{
-    duration: 2000, 
-    origin: "left",
-    distance: "150px",
-    reset: true
-})
-sr.reveal(".botonColores",{
+    container.style.opacity = 0;
+    container.style.transform = "translateX(-100px)";
+    container.style.transition = "opacity 1s ease, transform 1s ease";
+
+    setTimeout(() => {
+        container.style.opacity = 1;
+        container.style.transform = "translateX(0)";
+    }, 50); 
+}
+
+
+sr.reveal(".cuerpoVista",{
     duration: 2000, 
     origin: "left",
     distance: "150px",

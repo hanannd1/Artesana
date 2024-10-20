@@ -134,6 +134,11 @@ body{
     margin-bottom: 15px;
     padding: 10px;
 }
+.icono-enlace-nav{
+    width: 30px;
+    height: 30px;
+    object-fit: cover; 
+}
 .botonColores button{
     padding: 10px;
     background-color: #5c2c59;
@@ -228,6 +233,7 @@ button{
     padding: 20px;
     width: 243.3px;
     transition: transform 0.5s ease;
+    height: fit-content;
 
 }
 .tarjeta:hover{

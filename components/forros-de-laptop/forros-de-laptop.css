@@ -183,9 +183,7 @@ button{
     grid-template-columns:  repeat(auto-fill, minmax(243.3px, 1fr));
     justify-items: center;
     gap: 40px;
-    margin-bottom: 30px ;
-    
-    
+    margin-bottom: 30px ;   
 }
 .visto{
     display: none;
@@ -196,6 +194,11 @@ button{
     margin-bottom: 10px;
     border: 2px #fcdfd4 solid;
     height: 270px;
+}
+.icono-enlace-nav{
+    width: 30px;
+    height: 30px;
+    object-fit: cover; 
 }
 .tarjeta{
     filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.80));
@@ -210,6 +213,7 @@ button{
     padding: 20px;
     width: 243.3px;
     transition: transform 0.5s ease;
+    height: fit-content;
 
 }
 .tarjeta:hover{

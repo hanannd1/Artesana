@@ -1,3 +1,5 @@
+window.sr = ScrollReveal();
+
 let isOpenNav = false;
 
 function openAndCloseNav() {
@@ -10,3 +12,16 @@ function openAndCloseNav() {
         isOpenNav = false;
     }
 }
+
+sr.reveal(".carrusel",{
+    duration: 2000, 
+    origin: "left",
+    distance: "150px",
+    reset: true
+})
+sr.reveal(".catalogo",{
+    duration: 2000, 
+    origin: "left",
+    distance: "150px",
+    reset: true
+})

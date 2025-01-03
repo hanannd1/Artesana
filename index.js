@@ -52,32 +52,32 @@ function getTimeAndDoSomething(){
 
 
 
-    if(mesActual >= 10 && mesActual < 12 ){
+    if(mesActual >= 10 && mesActual < 1 ){
         navidadCat.style.display = 'flex'
         navidadNav.style.display = 'flex'
     }
 
-    if(mesActual >= 2 && mesActual < 3 ){
+    if(mesActual >= 2 && mesActual < 4 ){
         ramadanNav.style.display = 'flex';
         ramadanCat.style.display = 'flex';
     }
 
-    if(mesActual >= 1 && mesActual < 2 ){
+    if(mesActual >= 1 && mesActual < 3 ){
         sanValentinCat.style.display = 'flex';
         sanValentinNav.style.display = 'flex';
     }
 
-    if(mesActual >= 4 && mesActual < 5 ){
+    if(mesActual >= 4 && mesActual < 6 ){
         diaMadresNav.style.display = 'flex';
         madresCat.style.display = 'flex';
     }
 
-    if(mesActual >= 2 && mesActual < 3 ){
+    if(mesActual >= 2 && mesActual < 4 ){
         dianMujeresNav.style.display = 'flex';
         mujerCat.style.display = 'flex';
     }
 
-    if(mesActual == 3 || mesActual < 9 ){
+    if(mesActual == 3 || mesActual < 10 ){
         diaFloresAmarrillasNav.style.display = 'flex';
         floresAmarrillasCat.style.display = 'flex';
     }

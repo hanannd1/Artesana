@@ -62,7 +62,7 @@ function getTimeAndDoSomething(){
         ramadanCat.style.display = 'flex';
     }
 
-    if(mesActual >= 1 && mesActual < 3 ){
+    if(mesActual >= 2 && mesActual < 3 ){
         sanValentinCat.style.display = 'flex';
         sanValentinNav.style.display = 'flex';
     }
@@ -77,7 +77,7 @@ function getTimeAndDoSomething(){
         mujerCat.style.display = 'flex';
     }
 
-    if(mesActual == 3 || mesActual < 10 ){
+    if(mesActual == 2 || mesActual < 10 ){
         diaFloresAmarrillasNav.style.display = 'flex';
         floresAmarrillasCat.style.display = 'flex';
     }

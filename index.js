@@ -77,7 +77,7 @@ function getTimeAndDoSomething(){
         mujerCat.style.display = 'flex';
     }
 
-    if(mesActual == 2 || mesActual < 10 ){
+    if(mesActual == 3 || mesActual < 10 ){
         diaFloresAmarrillasNav.style.display = 'flex';
         floresAmarrillasCat.style.display = 'flex';
     }

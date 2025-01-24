@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../normalize.css" type="text/css">
+    <link rel="stylesheet" href="./sanvalentin.css" type="text/css">
+    <link rel="icon" href="./../../assets/logoArtesanaRedondo.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Artesana</title>
+</head>
+
+<body>
+    <nav class="navSlide" id="navSlide">
+        <div class="botonNav" onclick="openAndCloseNav()">
+            <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
+        </div>
+        <div class="categoriasMenu">
+            <a href="./../carteras/carteras.html">Carteras</a>
+            <a href="./flores.html">Flores</a>
+            <a href="./../forros-de-laptop/forros-de-laptop.html">Forros de laptop</a>
+            <a id="Navidad" href="./../temporada/temporada.html">Catalogo de navidad</a>
+            <!-- Cambiar la ruta del href  -->
+            <a  id="Ramadan" href="">Ramadan</a>
+            <!-- Cambiar la ruta del href  -->
+            <a id="SanValentin" href="">San Valentín</a>
+            <!-- Cambiar la ruta del href  -->
+            <a id="DiaMadres" href="">Día de las madres</a>
+            <!-- Cambiar la ruta del href  -->
+            <a id="DiaMujeres" href="">Día de la mujeres</a>
+            <!-- Cambiar la ruta del href  -->
+            <a id="DiaFloresAmarrillas" href="">Día de las flores amarillas</a>
+            <div class="iconWaAndIn">
+                <a href="https://wa.link/76fgft"> 
+                    <img class="icono-enlace-nav" src="./../../assets/icono-whatsapp.png">
+                </a>
+                <a href="https://www.instagram.com/artesana.mcbo?igsh=NDFnMzkzM21vdTk0">                
+                    <img class="icono-enlace-nav" src="./../../assets/icono-instagram.png">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="navegador">
+        <div class="menu">
+            <button class="boton" onclick="openAndCloseNav()">
+                <img class="imagen" src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
+            </button>
+        </div>
+        <a href="./../../index.html" class="cajatitulo">
+            <h2 class="logotipo">ARTESANA</h2>
+        </a>
+        <div class="cajainvisible">
+        </div>
+    </div>
+    <section class="cuerpoVista">
+        <div class="portada">
+            <h2>ESPECIAL SAN VALENTIN</h2>
+                <br>Por favor realiza tu pedido con anticipacion<br>
+                <br>Todos los ramos se pueden personalizar con la cantidad de flores y colores que desees <br>
+                <br>Para confirmar tu pedido y poder empezar a tejerlo debes hacer el pago del 50% adelantado <br>
+            </p>
+        </div>
+        <div class="botonColores">
+            <button onclick="navOpenAndClose()">Ver colores disponibles</button>
+        </div>
+        <div class="coloresFlores" id="coloresFlores">
+            <div>
+                <img src="./../../assets/coloresFlores/colorAmarillo.jpeg" alt="">
+                <p>Amarillo</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorAmarilloOscuro.jpeg" alt="">
+                <p>Amarillo <br> Oscuro</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorCeleste.jpeg" alt="">
+                <p>Celeste</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorTurquesa.jpeg" alt="">
+                <p>Turquesa</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorAzulRey.jpeg" alt="">
+                <p>Azul <br> Rey</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorAzulOscuro.jpeg" alt="">
+                <p>Azul <br> oscuro</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorLila.jpeg" alt="">
+                <p>Lila</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRosadoPastel.jpeg" alt="">
+                <p>Rosado <br> Pastel</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRosado.jpeg">
+                <p>Rosado</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRosadoFuerte.jpeg" alt="">
+                <p>Rosado <br> Chicle</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorMagenta.jpeg" alt="">
+                <p>Magenta</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorRojo.jpeg" alt="">
+                <p>Rojo</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorNaranja.jpeg" alt="">
+                <p>Naranja</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorVino.jpeg" alt="">
+                <p>Vino</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorBeige.jpeg" alt="">
+                <p>Beige</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorMarron.jpeg" alt="">
+                <p>Marron</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorBlanco.jpeg" alt="">
+                <p>Blanco</p>
+            </div>
+            <div>
+                <img src="./../../assets/coloresFlores/colorNegro.jpeg" alt="">
+                <p>Negro</p>
+            </div>
+        </div>
+        <div class="botones">
+            <button onclick="apearAndDesapper('flores', 'complementos', 'bouquetsEspeciales', 'stock')">Catalogo</button>
+            <button onclick="apearAndDesapper('complementos', 'flores', 'bouquetsEspeciales', 'stock')">Complementos</button>
+        </div>
+        <!--hacer caja de texto para decir que los ramos de flores se pueden personalizar-->
+        <div class="catalogoFlores" id="flores">
+            <div class="tarjeta">
+                <img src="./../../assets/navidad/flores/corazonLuminoso.jpeg" alt="">
+                <h3>Corazon en maceta con luces de hadas led </h3>
+                <h2>cuenta con 37 flores tejidas y mide 20cm de alto <br>
+                Pidelo en la combinacion de colores que desees</h2>
+                <h3>20$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/tulipanIndividualSencillo.bmp" alt="">
+                <h3>Tulipan individual especial</h3>
+                <h2>Esta version cuenta con un adicional de perlas y malla decorativa brillante</h2>
+                <h3>6$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/bouquetTulipanIndividual.bmp" alt="">
+                <h3>Cartera de flores</h3>
+                <h2>Los tonos estan sujetos a disponibilidad </h2>
+                <h3>50$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/bouquetTresFlores.jpeg" alt="">
+                <h3>Bouquet de 3 tulipanes + Snoopy con corazon</h3>
+                <h2>Se realizan las flores en el color que desees</h2>
+                <h3>33$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/tulipanYlavanda.bmp" alt="">
+                <h3>Bouquet especial de 3 tulipanes</h3>
+                <h2>Con perlas y malla decorativa (diseño de malla segu disponibilidad)</h2>
+                <h3>18$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/clavelSencillo.bmp" alt="">
+                <h3>Abejitas enamoradas</h3>
+                Par de llaveros que al juntarse se dan un besito
+                <h3>15$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/flores/girasolBouquet.jpeg" alt="">
+                <h3>Bouquet girasol + dos tulipanes</h3>
+                <h3>30$</h3>
+        </div>
+        <div class="catalogoFlores" id="complementos">
+            <div class="tarjeta">
+                <img src="./../../assets/flores/abejita.jpeg" alt="">
+                <h3>llaveros de corazon + acrilico personalizado</h3>
+                <h2>Personaliza la figura y la palabra ddel acrilico con un nombre o frase</h2>
+                <h3>5$ cada uno, a partir de 40 quedan en 4,5$ cada uno</h3>
+            </div>
+        </div>
+    </section>
+    <footer class="piedepagina">
+        <div class="contenidofooter">
+            <h2 class="logotipo footertitle">ARTESANA</h2>
+            <div class="linea"></div>
+            <ul>
+                <li>
+                    <a href="https://wa.link/76fgft">
+                        <img class="icono-enlace" src="./../../assets/icono-whatsapp.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/artesana.mcbo?igsh=NDFnMzkzM21vdTk0">
+                        <img class="icono-enlace" src="./../../assets/icono-instagram.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./flores.js"></script>
+
+</html>

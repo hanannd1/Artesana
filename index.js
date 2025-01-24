@@ -62,7 +62,7 @@ function getTimeAndDoSomething(){
         ramadanCat.style.display = 'flex';
     }
 
-    if(mesActual >= 1 && mesActual < 3 ){
+    if(mesActual >= 7 && mesActual < 8 ){
         sanValentinCat.style.display = 'flex';
         sanValentinNav.style.display = 'flex';
     }

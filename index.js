@@ -57,7 +57,7 @@ function getTimeAndDoSomething(){
         navidadNav.style.display = 'flex'
     }
 
-    if(mesActual >= 2 && mesActual < 4 ){
+    if(mesActual >= 5 && mesActual < 6 ){
         ramadanNav.style.display = 'flex';
         ramadanCat.style.display = 'flex';
     }
@@ -72,7 +72,7 @@ function getTimeAndDoSomething(){
         madresCat.style.display = 'flex';
     }
 
-    if(mesActual >= 2 && mesActual < 4 ){
+    if(mesActual >= 5 && mesActual < 6 ){
         dianMujeresNav.style.display = 'flex';
         mujerCat.style.display = 'flex';
     }

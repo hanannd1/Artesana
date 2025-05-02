@@ -27,11 +27,11 @@ function openAndCloseNav() {
 }
 
 function apearAndDesapper(showid, hideid1, hideid2, hideid3){
-    let show = document.getElementById(`${showid}`);
+    let show = document.getElementById(`${shoid}`);
     let hide1 = document.getElementById(`${hideid1}`);
     
 
-    animateContainer(showid)
+    animateContainer(shoid)
 
     show.style.display = "grid";
 

@@ -26,18 +26,17 @@ function openAndCloseNav() {
     }
 }
 
-function apearAndDesapper(showid, hideid1, hideid2, hideid3){
-    let show = document.getElementById(`${shoid}`);
+function apearAndDesapper(showid, hideid1){
+    let show = document.getElementById(`${showid}`);
     let hide1 = document.getElementById(`${hideid1}`);
     
 
-    animateContainer(shoid)
+    animateContainer(showid)
 
     show.style.display = "grid";
 
     hide1.style.display = "none";
-    hide2.style.display = "none";
-    hide3.style.display = "none"
+   
 }
 
 

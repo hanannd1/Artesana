@@ -195,6 +195,14 @@ button{
     border: 2px #fcdfd4 solid;
     height: 270px;
 }
+.portada{
+    width: 200px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    border: 2px #fcdfd4 solid;
+    height: 270px;
+    overflow: hidden;
+}
 .icono-enlace-nav{
     width: 30px;
     height: 30px;

@@ -1,0 +1,45 @@
+[
+    {
+        "img": "./../../assets/accesorios/florPuff.jpeg",
+        "titulo":"Llavero flor puff",
+        "descripcion":"personaliza el color",
+        "precio":"6$",
+        "categoria":"Llaveros"
+    },
+    {
+        "img": "./../../assets/llaveros/abejasEnamoradas.jpg",
+        "titulo":"abejitas enamoradas",
+        "descripcion":"cuando se acercan se dan un besito por el iman que llevan dentro",
+        "precio":"15$",
+        "categoria":"Llaveros"
+    },
+    {
+        "img": "./../../assets/llaveros/corazonTrapillo.jpg",
+        "titulo":"Llavero de corazon con plaquita personalizada",
+        "descripcion":"personaliza el color del tejido y la palabra de la plaquita",
+        "precio":"6$",
+        "categoria":"Llaveros"
+    },
+    {
+        "img": "./../../assets/accesorios/florPuff.jpeg",
+        "titulo":"Llavero flor puff",
+        "descripcion":"personaliza el color del tejido y la palabra de la plaquita",
+        "precio":"6$ o 2x10$",
+        "categoria":"Stock"
+    },
+    {
+        "img": "./../../assets/carteras/jazminBagMagenta.jpeg",
+        "titulo":"Jazmin",
+        "descripcion":"Disponible para entrega inmediata en color magenta",
+        "precio":"40$",
+        "categoria":"Stock"
+    },
+    {
+        "img": "./../../assets/carteras/amarBag.jpeg",
+        "titulo":"Amar",
+        "descripcion":"Tejida en material metalizado, disponible para entrega inmediata en todos los colores",
+        "precio":"75$",
+        "categoria":"Stock"
+    }
+]
+    

@@ -1,0 +1,184 @@
+[
+  {
+    "img": "./../../assets/flores/tulipanIndividualSencillo.bmp",
+    "titulo": "Tulipan individual sencillo",
+    "descripcion": "",
+    "precio": "6$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/bouquetTulipanIndividual.bmp",
+    "titulo": "Bouquet de tulipan individual",
+    "descripcion": "",
+    "precio": "6,5$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/bouquetTresFlores.jpeg",
+    "titulo": "Bouquet de 3 tulipanes",
+    "descripcion": "",
+    "precio": "19,5$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/tulipanYlavanda.bmp",
+    "titulo": "Tulipan + lavanda",
+    "descripcion": "",
+    "precio": "11,5$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/clavelSencillo.bmp",
+    "titulo": "Clavel bouquet",
+    "descripcion": "",
+    "precio": "7$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/girasolEstandar.jpg",
+    "titulo": "Girasol",
+    "descripcion": "",
+    "precio": "10$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/girasolBouquet.jpeg",
+    "titulo": "Maxi girasol",
+    "descripcion": "Mas grande que el normal",
+    "precio": "13$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/rosaBouquet.jpeg",
+    "titulo": "Rosa bouquet",
+    "descripcion": "",
+    "precio": "9$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/rosaPremiumBouquet.jpeg",
+    "titulo": "Rosa premium bouquet",
+    "descripcion": "Rosa grande y con mas volumen tejida petalo a petalo",
+    "precio": "12$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/rapunzelMini.jpeg",
+    "titulo": "Lirio magico de Rapunzel",
+    "descripcion": "",
+    "precio": "13$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/rapunzelGrandeBouquet.jpeg",
+    "titulo": "Lirio magico de Rapunzel",
+    "descripcion": "Version mas grande",
+    "precio": "25$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/tulipanMaceta.jpeg",
+    "titulo": "Tulipan en maceta",
+    "descripcion": "Puedes personalizar el color del tulipan y la maceta",
+    "precio": "12$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/girasolMaceta.jpeg",
+    "titulo": "Girasol en maceta",
+    "descripcion": "Puedes personalizar el color de la maceta",
+    "precio": "12$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/spidermanBouquet3.jpg",
+    "titulo": "Bouquet 3 tulipanes Spiderman",
+    "descripcion": "Puedes pedir el ramo con la cantidad que desees, desde 1 tulipan",
+    "precio": "21$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/tulipanBordado.jpg",
+    "titulo": "Bouquet tulipan con corazones bordados",
+    "descripcion": "",
+    "precio": "8$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/navidad/flores/corazonLuminoso.jpeg",
+    "titulo": "Corazon en maceta con luces de hadas led",
+    "descripcion": "Cuenta con 37 flores tejidas y mide 20cm de alto. Pidelo en la combinacion de colores que desees",
+    "precio": "25$",
+    "categoria": "Flores"
+  },
+  {
+    "img": "./../../assets/flores/tarjeta.jpg",
+    "titulo": "Tarjeta",
+    "descripcion": "mensaje personalizado",
+    "precio": "1$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/extras/mariposaDecorativaPlateada.jpg",
+    "titulo": "Mariposa Decorativa",
+    "descripcion": "color sujeto a disponibilidad",
+    "precio": "1$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/flores/perlasYmallaAdicional.jpg",
+    "titulo": "Perlas y malla sencilla",
+    "descripcion": "color de la malla sujeto a disponibilidad",
+    "precio": "1$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/flores/mallaPerlas.jpg",
+    "titulo": "Malla con perlas",
+    "descripcion": "",
+    "precio": "1$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/flores/abejita.jpeg",
+    "titulo": "abejita",
+    "descripcion": "",
+    "precio": "7$",
+    "categoria": "Complementos"
+  },
+  {
+    "img": "./../../assets/flores/bouquetKau.jpg",
+    "titulo": "Bouquet de 5 tulipanes + 3 margaritas + malla de perlas + tarjeta",
+    "descripcion": "personalizalo del color que desees",
+    "precio": "39$",
+    "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/flores/tresTulipanesGirasolBouquet.jpeg",
+    "titulo": "Bouquet de 3 tulipanes + girasol",
+    "descripcion": "puedes pedir los tulipanes del color que desees",
+    "precio": "29,5$",
+    "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/flores/tresTulipanesAbejaBouquet.jpeg",
+    "titulo": "Bouquet de 3 tulipanes + abejita",
+    "descripcion": "puedes pedir los tulipanes del color que desees",
+    "precio": "26,5$",
+    "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/flores/tulipanClavelBouquet.jpeg",
+    "titulo": "Bouquet clavel + tulipan",
+    "descripcion": "puedes pedir las flores del color que desees",
+    "precio": "13,5$",
+    "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/flores/bouquet3lirios.jpeg",
+    "titulo": "Bouquet de 3 lirios",
+    "descripcion": "Pide los lirios del color que desees",
+    "precio": "30$",
+    "categoria": "Bouquets"
+  }
+]

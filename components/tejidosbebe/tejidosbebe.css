@@ -11,9 +11,6 @@ body{
     width: 100vw;
     height:fit-content;
 }
-.cajatitulo{
-    text-decoration: none;
-}
 .navegador{
     align-items: center;
     display: flex;
@@ -23,18 +20,20 @@ body{
 .imagen{
     width: 36px;
     object-fit: cover;
-    
 }
 .cajainvisible{
     width: 36px;
 }
+.cajatitulo{
+    text-decoration: none;
+}
 .logotipo{
     color: #5c2c59;
-    font-family: 'fuenteprincipal';
 }
 .boton{
     background-color: #fcdfd4;
     border: transparent;
+    cursor: pointer;
 }
 
 
@@ -80,30 +79,7 @@ body{
     font-size: 22px;
     font-weight: 800;
 }
-.coloresCarteras{
-    display:flex;
-    height: 0;
-    box-sizing: border-box;
-    overflow: hidden;
-    flex-flow: wrap row;
-    gap: 10px;
-    transition: height .6s ease;
-}
-.coloresCarteras div p{
-    text-align: center;
-    
-}
-.coloresCarteras img{
-    margin: 10px 10px 0px 10px;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    aspect-ratio: 1/1;
-    object-fit: cover;
-    object-position: 0 -22px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
 
-}
 .cuerpoVista{
     width: 100%;
     overflow: hidden;
@@ -116,6 +92,39 @@ body{
 }
 .portada p{
     font-size: 20px;
+}
+.portada ul{
+    font-size: 20px;
+}
+.portada li{
+    margin-bottom: 8px;
+}
+.botones{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 15px;
+    padding: 10px;
+
+}
+.botones button{
+    padding: 10px;
+    background-color: #5c2c59;
+    color:white ;
+    border-radius: 15px;
+    outline: none;
+    font-size: 18px;
+    border: 2px transparent solid;
+    transition: all .2s ease;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+}
+.botones button:hover{
+    background-color: white;
+    color: #5c2c59;
+    border: 2px #5c2c59 solid;
+    transition: all .2s ease;
+    
 }
 .botonColores{
     width: 100%;
@@ -143,38 +152,7 @@ body{
     border: 2px #5c2c59 solid;
     transition: all .2s ease;
 }
-.botones{
-    width: 100%;
-    overflow: hidden;
-    box-sizing: border-box;
-    gap: 20px;
-    display: flex;
-    margin-bottom: 15px;
-    padding: 10px;
-
-}
-button{
-    cursor: pointer;
-}
-.botones button{
-    padding: 10px;
-    background-color: #5c2c59;
-    color:white ;
-    border-radius: 15px;
-    outline: none;
-    font-size: 18px;
-    border: 2px transparent solid;
-    transition: all .2s ease;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
-}
-.botones button:hover{
-    background-color: white;
-    color: #5c2c59;
-    border: 2px #5c2c59 solid;
-    transition: all .2s ease;
-    
-}
-.catalogoCarteras{
+.catalogoFlores{
     padding: 10px;
     width: 100%;
     height: fit-content;
@@ -183,10 +161,34 @@ button{
     grid-template-columns:  repeat(auto-fill, minmax(243.3px, 1fr));
     justify-items: center;
     gap: 40px;
-    margin-bottom: 30px ;   
+    margin-bottom: 30px ;
 }
-.visto{
-    display: none;
+.coloresFlores{
+    display:flex;
+    height: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-flow: wrap row;
+    gap: 10px;
+    transition: height .6s ease;
+}
+.coloresFlores div p{
+    text-align: center;
+    
+}
+.coloresFlores img{
+    margin: 10px 10px 0px 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    align-items: center;
+    object-fit:cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.50));
+
+}
+button{
+    cursor: pointer;
 }
 .tarjeta img{
     width: 200px;
@@ -194,19 +196,6 @@ button{
     margin-bottom: 10px;
     border: 2px #fcdfd4 solid;
     height: 270px;
-}
-.portada{
-    width: 200px;
-    border-radius: 20px;
-    margin-bottom: 10px;
-    border: 2px #fcdfd4 solid;
-    height: 270px;
-    overflow: hidden;
-}
-.icono-enlace-nav{
-    width: 30px;
-    height: 30px;
-    object-fit: cover; 
 }
 .tarjeta{
     filter: drop-shadow(0px 6px 6px rgba(0, 0, 0, 0.80));
@@ -222,7 +211,6 @@ button{
     width: 243.3px;
     transition: transform 0.5s ease;
     height: fit-content;
-
 }
 .tarjeta:hover{
     transition: all 0.5s ease;
@@ -231,10 +219,10 @@ button{
 
 }
 .tarjeta h3:nth-child(2){
-    font-size: 28px; 
+    font-size: 20px; 
 }
 .tarjeta h3:nth-child(3){
-    font-size: 25px; 
+    font-size: 20px; 
 }
 .tarjeta h3{
     margin: 10px 0;
@@ -244,6 +232,18 @@ button{
     color: #5c2c59;
     border-radius: 10px;
 }
+.tarjeta h2{
+    margin: 10px 0;
+    padding: 3px 0;
+    width: 100%;
+    background-color: white;
+    color: #5c2c59;
+    border-radius: 5px;
+    font-size: 15px;
+}
+#bouquetsEspeciales, #complementos, #stock{
+    display: none;
+}
 
 /*footer*/
 .piedepagina{
@@ -252,7 +252,6 @@ button{
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 30px ;
 }
 .icono-enlace{
     width: 40px;
@@ -277,7 +276,12 @@ button{
     margin: 0 30px;
 
 }
-ul{
+.icono-enlace-nav{
+    width: 30px;
+    height: 30px;
+    object-fit: cover; 
+}
+.contenidofooter ul{
     list-style: none;
     margin: 0;
     padding: 0;

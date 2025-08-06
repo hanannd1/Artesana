@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../normalize.css" type="text/css">
+    <link rel="stylesheet" href="./tejidosbebe.css" type="text/css">
+    <link rel="icon" href="./../../assets/logoArtesanaRedondo.png" type="image/x-icon">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Artesana</title>
+</head>
+
+<body>
+    <nav class="navSlide" id="navSlide">
+        <div class="botonNav" onclick="openAndCloseNav()">
+            <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
+        </div>
+        <div class="categoriasMenu">
+            <a href="./../carteras/carteras.html">Carteras</a>
+            <a href="./../flores/flores.html">Flores</a>
+            <a href="./tejidosbebe.html">Tejidos para bebes</a>
+            <a href="./../llaveros/llaveros.html">Llaveros</a>
+            
+            <div class="iconWaAndIn">
+                <a href="https://wa.link/76fgft"> 
+                    <img class="icono-enlace-nav" src="./../../assets/icono-whatsapp.png">
+                </a>
+                <a href="https://www.instagram.com/artesana.mcbo?igsh=NDFnMzkzM21vdTk0">                
+                    <img class="icono-enlace-nav" src="./../../assets/icono-instagram.png">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="navegador">
+        <div class="menu">
+            <button class="boton" onclick="openAndCloseNav()">
+                <img class="imagen" src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
+            </button>
+        </div>
+        <a href="./../../index.html" class="cajatitulo">
+            <h2 class="logotipo">ARTESANA</h2>
+        </a>
+        <div class="cajainvisible">
+        </div>
+    </div>
+    <section class="cuerpoVista">
+        <div class="portada">
+            <h2>Tejidos de bebe</h2>
+                <br>Por favor realiza tu pedido con al menos 7 dias de anticipacion<br>
+                <br>Puedes personalizar los tejidos del color que desees <br>
+                <br>Todos los tejidos para bebes estan hechos con hilo hipo alergenico y apto para ser manipulado por bebes sin causar alergias o irritaciones<br>
+                <br>Para confirmar tu pedido y poder empezar a tejerlo debes hacer el pago del 50% adelantado <br>
+            </p>
+        </div>
+    
+        <div class="botones">
+            <button onclick="apearAndDesapper('flores', 'complementos', 'bouquetsEspeciales', 'stock')">Sonajeros</button>
+            <button onclick="apearAndDesapper('complementos', 'flores', 'bouquetsEspeciales', 'stock')">Decoraciones y souvenir</button>
+            <button onclick="apearAndDesapper('bouquetsEspeciales', 'complementos', 'flores', 'stock')">Accesorios</button>
+            <button onclick="apearAndDesapper('stock', 'bouquetsEspeciales', 'complementos', 'flores')">Peluches</button>
+        </div>
+        <!--hacer caja de texto para decir que los ramos de flores se pueden personalizar-->
+        <div class="catalogoFlores" id="flores">
+           
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/sonajeroConejoUnisex.jpg" alt="">
+                <h3>Sonajero Conejo</h3>
+                <h2>Personaliza el color del collar para hacerlo de niña, niño o unisex</h2>
+                <h3>18$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/sonajeroConejoOrejasGrandes.jpg" alt="">
+                <h3>Sonajero Conejo Orejitas grandes</h3>
+                <h2>con los ojos bordados y las ojerasmas grandes hacia atras, puedes personalizar el color</h2>
+                <h3>22$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/sonajeroLeon.jpg" alt="">
+                <h3>Sonajero Leon</h3>
+                <h3>18$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/sonajeroOso.jpg" alt="">
+                <h3>Sonajero Osito</h3>
+                <h2>Puedes personalizar los colores del oso y del collar</h2>
+                <h3>18$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/sonajeroPollito.jpg" alt="">
+                <h3>Sonajero pollito</h3>}
+                <h2>Puedes personalizar los colores</h2>
+                <h3>18$</h3>
+            </div>
+        </div>
+        <div class="catalogoFlores" id="complementos">
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/acrilicoPuertaLin.jpg" alt="">
+                <h3>Acrilico decorativo con flores tejidas</h3>
+                <h2>Puedes personalizar los colores y el nombre <br>(20cm de diametro)</b></h2>
+                <h3>35$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/acrilicoPuertaOliviaCorazones.jpg" alt="">
+                <h3>Acrilico decorativo con corazones tejidos</h3>
+                <h2>Puedes personalizar los colores y el nombre <br>(20cm de diametro)</b></h2>
+                <h3>35$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/acrilicoPuertaLaylaCorazonesYlazo.jpg" alt="">
+                <h3>Acrilico decorativo con lazo y corazones tejidos</h3>
+                <h2>Puedes personalizar los colores y el nombre <br>(20cm de diametro)</b></h2>
+                <h3>40$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/acrilicoPuertaHusseinLazoyCorazones.jpg" alt="">
+                <h3>Acrilico decorativo con lazo y corazones tejidos (version niño)</h3>
+                <h2>Puedes personalizar los colores y el nombre <br>(20cm de diametro)</b></h2>
+                <h3>40$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/acrilicoPuertaSalahCorazones.jpg" alt="">
+                <h3>Acrilico decorativo con corazones tejidos de lado (version niño)</h3>
+                <h2>Puedes personalizar los colores y el nombre <br>(20cm de diametro)</b></h2>
+                <h3>35$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/acrilicoPuertaOthmanCorazones.jpg" alt="">
+                <h3>Acrilico decorativo con corazones tejidos hacia abajo (version niño)</h3>
+                <h2>Puedes personalizar los colores y el nombre <br>(20cm de diametro)</b></h2>
+                <h3>35$</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/llaveroCorazonTrapillo.jpg" alt="">
+                <h3>llavero de corazon con plaquita de acrilico personalizada</h3>
+                <h2>Ideal para dar como souvenir de nacimiento</h2>
+                <h3>6$ c/u</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/llaveroCorazonTarjetaPersonalizada.jpg" alt="">
+                <h3>llavero de corazon con plaquita de acrilico personalizada + tarjeta personalizada</h3>
+                <h2>Ideal para dar como souvenir de nacimiento</h2>
+                <h3>pedido minimo 30 llaveros para personalizar tarjeta <br>6$ c/u</h3>
+            </div>
+        </div>
+        <div class="catalogoFlores" id="bouquetsEspeciales">
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/sombreroOsito.jpg" alt="">
+                <h3>Sombrero con orejitas de oso</h3>
+                <h2>Puedes personalizar el color</h2>
+                <h3>Precio depende de la talla (consultar por chat)</h3>
+            </div>
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/cintilloAbejita.jpg" alt="">
+                <h3>Cintillo de abejita con antenas</h3>
+                <h3>Precio depende de la talla (consultar por chat)</h3>
+            </div>
+        </div>
+        <div class="catalogoFlores" id="stock">
+            <div class="tarjeta">
+                <img src="./../../assets/bebes/pelucheConejita.jpg" alt="">
+                <h3>Peluche conejita</h3>
+                <h2>Puedes personalizar los colores <br>(20cm de alto aprox.)</b></h2>
+                <h3>25$</h3>
+            </div>
+            
+        </div>
+    </section>
+    <footer class="piedepagina">
+        <div class="contenidofooter">
+            <h2 class="logotipo footertitle">ARTESANA</h2>
+            <div class="linea"></div>
+            <ul>
+                <li>
+                    <a href="https://wa.link/76fgft">
+                        <img class="icono-enlace" src="./../../assets/icono-whatsapp.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/artesana.mcbo?igsh=NDFnMzkzM21vdTk0">
+                        <img class="icono-enlace" src="./../../assets/icono-instagram.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="./tejidosbebe.js"></script>
+
+</html>

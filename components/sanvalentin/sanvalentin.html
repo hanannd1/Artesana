@@ -12,6 +12,23 @@
 </head>
 
 <body>
+    <div class="modalBox" id="modalBox">
+        <div class="modal">
+            <div class="button_close">
+                <h3 onclick="close_modal()">X</h3>
+            </div>
+            <div class="contenido">
+                <div class="img_div">
+                    <img src="./../../assets/flores/tarjeta.jpg" alt="">
+                </div>
+                <div class="caracteristicas_div">
+                    <h2>Titulo</h2>
+                    <h2 class="precio_modal">Precio</h2>
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae deserunt aliquam voluptatibus autem pariatur ad. Rerum quia velit, quidem ipsum animi laudantium quae eos, dolore, necessitatibus nam neque veniam aperiam!</h3>
+                </div>
+            </div>
+        </div>
+    </div>
     <nav class="navSlide" id="navSlide">
         <div class="botonNav" onclick="openAndCloseNav()">
             <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
@@ -131,30 +148,8 @@
                 <p>Negro</p>
             </div>
         </div>
-        <div class="botones">
-            <button onclick="apearAndDesapper('flores', 'complementos')">Catalogo</button>
-            <button onclick="apearAndDesapper('complementos', 'flores')">Complementos</button>
-        </div>
-        <!--hacer caja de texto para decir que los ramos de flores se pueden personalizar-->
-        <div class="catalogoFlores" id="flores">
-            <div class="tarjeta">
-                <img src="./../../assets/graduaciones/rosaBirrete.jpg" alt="">
-                <h3>Rosa mediana + birrete </h3>
-                <h3>12$</h3>
-            </div>
-            <div class="tarjeta">
-                <img src="./../../assets/graduaciones/snoopyGraduacion.jpg" alt="">
-                <h3>Snoopy peluche con traje de graduado</h3>
-                <h2>puedes escoger el color de la toga y birrete (negro, azul o rosado)</h2>
-                <h3>25$</h3>
-            </div>
-            <div class="tarjeta">
-                <img src="./../../assets/graduaciones/osoGraduacion.jpg">
-                <h3>Oso de peluche con traje de graduado</h3>
-               <h2>puedes escoger el color de la toga y birrete (negro, azul o rosado)</h2>
-                <h3>25$</h3>
-            </div>
-        </div>
+        <div class="botones" id="botones"></div>
+        <div class="catalogoFlores" id="Productos"></div>
     </section>
     <footer class="piedepagina">
         <div class="contenidofooter">

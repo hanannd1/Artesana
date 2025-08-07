@@ -65,45 +65,48 @@ sr.reveal(".cuerpoVista",{
 })
 
 fetch('./../../productos/carteras.json')
-    .then(response => {
+   .then(response => {
         if (!response.ok) {
             throw new Error('Error al cargar el archivo JSON');
         }
         return response.json();
     })
     .then(productos => {
-        const categorias = []
+        const categorias = [];
         const contenedorCategorias = document.getElementById("botones");
-        productos.forEach(producto => {
 
+        productos.forEach(producto => {
             if (!categorias.includes(producto.categoria)) {
-                categorias.push(producto.categoria)
+                categorias.push(producto.categoria);
             }
 
             const contenedor = document.getElementById(producto.categoria);
 
-
             const tarjeta = document.createElement("div");
             tarjeta.classList.add("tarjeta");
+
             const descripcionHTML = producto.descripcion
                 ? `<h2>${producto.descripcion}</h2>`
                 : '';
 
             tarjeta.innerHTML = `
-        <img src="${producto.img}" alt="${producto.titulo}">
-        <h3>${producto.titulo}</h3>
-        ${descripcionHTML}
-        <h3>${producto.precio}</h3>
-      `;
+                <img src="${producto.img}" alt="${producto.titulo}">
+                <h3>${producto.titulo}</h3>
+                ${descripcionHTML}
+                <h3>${producto.precio}</h3>
+            `;
+
+            tarjeta.addEventListener("click", () => {
+                open_modal(producto);
+            });
 
             contenedor.appendChild(tarjeta);
         });
 
         categorias.forEach((cat, index) => {
             const contenedor = document.getElementById(cat);
-            contenedor.style.display = index === 0 ? "grid" : "none"; 
+            contenedor.style.display = index === 0 ? "grid" : "none";
         });
-
 
         categorias.forEach((categoriaSeleccionada) => {
             const otrasCategorias = categorias.filter(c => c !== categoriaSeleccionada);
@@ -116,8 +119,30 @@ fetch('./../../productos/carteras.json')
             boton.setAttribute("onclick", `apearAndDesapper(${argumentos})`);
             contenedorCategorias.appendChild(boton);
         });
-
     })
     .catch(error => {
         console.error('Hubo un problema con la carga del JSON:', error);
     });
+
+
+function close_modal() {
+    const modalBox = document.getElementById("modalBox");
+    modalBox.style.display = "none";
+}
+
+
+function open_modal(producto) {
+    const modalBox = document.getElementById("modalBox");
+    const modalImg = modalBox.querySelector(".img_div img");
+    const modalTitulo = modalBox.querySelector(".caracteristicas_div h2");
+    const modalPrecio = modalBox.querySelector(".precio_modal");
+    const modalDescripcion = modalBox.querySelector(".caracteristicas_div h3");
+
+    modalImg.src = producto.img;
+    modalImg.alt = producto.titulo;
+    modalTitulo.textContent = producto.titulo;
+    modalPrecio.textContent = producto.precio;
+    modalDescripcion.textContent = producto.descripcion || "Sin descripción";
+
+    modalBox.style.display = "flex"; 
+}

@@ -19,27 +19,5 @@
         "descripcion":"personaliza el color del tejido y la palabra de la plaquita",
         "precio":"6$",
         "categoria":"Llaveros"
-    },
-    {
-        "img": "./../../assets/accesorios/florPuff.jpeg",
-        "titulo":"Llavero flor puff",
-        "descripcion":"personaliza el color del tejido y la palabra de la plaquita",
-        "precio":"6$ o 2x10$",
-        "categoria":"Stock"
-    },
-    {
-        "img": "./../../assets/carteras/jazminBagMagenta.jpeg",
-        "titulo":"Jazmin",
-        "descripcion":"Disponible para entrega inmediata en color magenta",
-        "precio":"40$",
-        "categoria":"Stock"
-    },
-    {
-        "img": "./../../assets/carteras/amarBag.jpeg",
-        "titulo":"Amar",
-        "descripcion":"Tejida en material metalizado, disponible para entrega inmediata en todos los colores",
-        "precio":"75$",
-        "categoria":"Stock"
     }
 ]
-    

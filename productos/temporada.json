@@ -1,0 +1,23 @@
+    [
+  {
+    "img": "./../../assets/graduaciones/rosaBirrete.jpg",
+    "titulo": "Rosa mediana + birrete",
+    "descripcion": "",
+    "precio": "12$",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/graduaciones/snoopyGraduacion.jpg",
+    "titulo": "Snoopy peluche con traje de graduado",
+    "descripcion": "puedes escoger el color de la toga y birrete (negro, azul o rosado)",
+    "precio": "25$",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/graduaciones/osoGraduacion.jpg",
+    "titulo": "Oso de peluche con traje de graduado",
+    "descripcion": "puedes escoger el color de la toga y birrete (negro, azul o rosado)",
+    "precio": "25$",
+    "categoria": "Productos"
+  }
+]

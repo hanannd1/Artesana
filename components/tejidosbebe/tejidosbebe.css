@@ -292,6 +292,10 @@ button{
     .catalogoCarteras{
         align-content: center;
     }
+      .portada h2{
+        text-align: center;
+        margin: 15px 0;
+    }
 }
 
 .modalBox{
@@ -320,20 +324,27 @@ button{
     justify-content: end;
     padding-right: 15px;
 }
-.button_close h3{
+.close_modal_button{
     cursor: pointer;
     transition: all .3s ease;
-   width: 30px;
-   text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
     border-radius: 50%;
     aspect-ratio: 1/1;
     position: absolute;
     border: solid 2px white;
 }
-.button_close h3:hover{
+.close_modal_button h3{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    line-height: 0;
+}
+.close_modal_button:hover{
     color: #5c2c59;
     background-color: white;
-    width: 30px;
     border-radius: 50%;
     aspect-ratio: 1/1;
     transition: all .3s ease;
@@ -351,7 +362,15 @@ button{
     height: 100%;
     box-sizing: border-box;
     overflow: scroll;
+    border: 8px white solid;
     background-color: white;
+    overflow: auto; /* o scroll, según lo que necesites */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  border-radius: 15px;
+}
+.img_div::-webkit-scrollbar {
+  display: none; /* Chrome, Safari y Edge */
 }
 .img_div img{
     object-fit: contain;

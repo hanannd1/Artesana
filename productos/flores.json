@@ -180,5 +180,40 @@
     "descripcion": "Pide los lirios del color que desees",
     "precio": "30$",
     "categoria": "Bouquets"
+  },
+  {
+    "img": "./../../assets/macetas/rosarioColgadera.jpg",
+    "titulo": "Planta rosario con hojas que cuelgan",
+    "descripcion": "la base mide 7-8cm aproximadamente",
+    "precio": "16$",
+    "categoria": "Macetas"
+  },
+  {
+    "img": "./../../assets/macetas/suculenta.jpg",
+    "titulo": "Planta suculenta",
+    "descripcion": "la base mide 7cm aproximadamente",
+    "precio": "10$",
+    "categoria": "Macetas"
+  },
+  {
+    "img": "./../../assets/macetas/cactusAlto.jpg",
+    "titulo": "Cactus alto",
+    "descripcion": "la base mide 7cm aproximadamente",
+    "precio": "12$",
+    "categoria": "Macetas"
+  },
+  {
+    "img": "./../../assets/macetas/rosaConAbeja.jpg",
+    "titulo": "Maceta con rosa + abeja",
+    "descripcion": "Escoge el color de la rosa",
+    "precio": "22$",
+    "categoria": "Macetas"
+  },
+   {
+    "img": "./../../assets/macetas/macetaGigante.jpg",
+    "titulo": "Maceta grande con 4 tulipanes, dos rositas y dos abejas",
+    "descripcion": "Escoge el color de las flores",
+    "precio": "75$",
+    "categoria": "Macetas"
   }
 ]

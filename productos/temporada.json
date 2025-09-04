@@ -1,23 +1,72 @@
-    [
+  [
   {
-    "img": "./../../assets/graduaciones/rosaBirrete.jpg",
-    "titulo": "Rosa mediana + birrete",
+    "img": "./../../assets/floresAmarillas/tulipanBouquetIndividual.jpg",
+    "titulo": "Bouquet tulipan individual",
+    "descripcion": "puedes armar un ramo con la cantidad de tulipanes que desees",
+    "precio": "6,5$ c/u",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/floresAmarillas/tresTulipanes.jpg",
+    "titulo": "Bouquet de 3 tulipanes",
+    "descripcion": "",
+    "precio": "19,5$",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/floresAmarillas/girasol.jpg",
+    "titulo": "Girasol",
+    "descripcion": "",
+    "precio": "10$",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/floresAmarillas/tulipanLavanda.jpg",
+    "titulo": "Tulipan + Lavanda",
+    "descripcion": "",
+    "precio": "11,5$",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/floresAmarillas/tresTulipanesAbeja.jpg",
+    "titulo": "Bouquet de 3 tulipanes + abeja",
+    "descripcion": "",
+    "precio": "26,5$",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/floresAmarillas/dosTulipanesBrownie.jpg",
+    "titulo": "Bouquet de 2 tulipanes + Brownie",
+    "descripcion": "",
+    "precio": "17$",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/floresAmarillas/girasolBrownie.jpg",
+    "titulo": "Bouquet de girasol + Brownie",
+    "descripcion": "",
+    "precio": "14$",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/floresAmarillas/girasolSnoopy.jpg",
+    "titulo": "Girasol + Snoopy enamorado",
+    "descripcion": "",
+    "precio": "35$",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/floresAmarillas/girasolMaceta.jpg",
+    "titulo": "Girasol en maceta",
     "descripcion": "",
     "precio": "12$",
     "categoria": "Productos"
   },
   {
-    "img": "./../../assets/graduaciones/snoopyGraduacion.jpg",
-    "titulo": "Snoopy peluche con traje de graduado",
-    "descripcion": "puedes escoger el color de la toga y birrete (negro, azul o rosado)",
-    "precio": "25$",
-    "categoria": "Productos"
-  },
-  {
-    "img": "./../../assets/graduaciones/osoGraduacion.jpg",
-    "titulo": "Oso de peluche con traje de graduado",
-    "descripcion": "puedes escoger el color de la toga y birrete (negro, azul o rosado)",
-    "precio": "25$",
+    "img": "./../../assets/floresAmarillas/llaveroGirasol.jpg",
+    "titulo": "Llavero girasol",
+    "descripcion": "",
+    "precio": "8$",
     "categoria": "Productos"
   }
 ]

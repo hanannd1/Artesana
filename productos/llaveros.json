@@ -19,5 +19,12 @@
         "descripcion":"personaliza el color del tejido y la palabra de la plaquita",
         "precio":"6$",
         "categoria":"Llaveros"
+    },
+    {
+        "img": "./../../assets/flores/tulipanIndividualEspecial.jpg",
+        "titulo":"Llavero de corazon con plaquita personalizada",
+        "descripcion":"personaliza el color del tejido y la palabra de la plaquita",
+        "precio":"6$",
+        "categoria":"Llaveros"
     }
 ]

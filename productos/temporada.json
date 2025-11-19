@@ -28,6 +28,13 @@
     "categoria": "Productos"
   },
   {
+    "img": "./../../assets/navidad/llaveroGrinch.jpg",
+    "titulo": "Llavero del grinch",
+    "descripcion": "",
+    "precio": "13$",
+    "categoria": "Productos"
+  },
+  {
     "img": "./../../assets/navidad/arbolTrapillo.jpg",
     "titulo": "Arbol tejido con luces y estrella dorada",
     "descripcion": "disponible en 2 tamaños",

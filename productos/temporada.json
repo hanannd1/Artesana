@@ -8,8 +8,22 @@
   },
   {
     "img": "./../../assets/navidad/llaveroCorazonAcrilico.jpg",
-    "titulo": "Llavero de corazon + plaquita",
-    "descripcion": "puedes escoger el color del corazon tejido y la figura/mensaje de la plaquita",
+    "titulo": "Llavero de corazon + plaquita navidad",
+    "descripcion": "puedes escoger el color del corazon tejido",
+    "precio": "6$ o 5,5$ a partir de  20 piezas",
+    "categoria": "Productos"
+  },
+   {
+    "img": "./../../assets/navidad/llaveroCorazonInicial.jpg",
+    "titulo": "Llavero de corazon + plaquita de inicial con nombre grabado",
+    "descripcion": "puedes escoger el color del corazon tejido",
+    "precio": "6,5$ o 6$ a partir de  20 piezas",
+    "categoria": "Productos"
+  },
+  {
+    "img": "./../../assets/navidad/llaveroCorazonPlacaRectangular.jpg",
+    "titulo": "Llavero de corazon + plaquita rectangular o redonda",
+    "descripcion": "puedes escoger el color del corazon tejido",
     "precio": "6$ o 5,5$ a partir de  20 piezas",
     "categoria": "Productos"
   },

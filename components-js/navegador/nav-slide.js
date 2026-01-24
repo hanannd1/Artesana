@@ -64,26 +64,26 @@ class NavSlide extends HTMLElement {
 
                 /* ====== NAV SLIDE ====== */
                 .navSlide {
-    display: flex;
-    box-sizing: border-box;
-    overflow: hidden;
-    background-color: #fcdfd4;
-    position: fixed;
+                    display: flex;
+                    box-sizing: border-box;
+                    overflow: hidden;
+                    background-color: #fcdfd4;
+                    position: fixed;
 
-    top: 0;              /* ← AÑADE SOLO ESTO */
-    height: 100vh;
+                    top: 0;              /* ← AÑADE SOLO ESTO */
+                    height: 100vh;
 
-    z-index: 1200;
-    padding: 10px 30px 10px 10px;
-    gap: 15px;
-    border-right: 5px #5c2c59 solid;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.80));
-    flex-direction: column;
+                    z-index: 1200;
+                    padding: 10px 30px 10px 10px;
+                    gap: 15px;
+                    border-right: 5px #5c2c59 solid;
+                    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.80));
+                    flex-direction: column;
 
-    left: -300px;
-    width: 300px;
-    transition: transform 0.3s ease-in-out;
-}
+                    left: -300px;
+                    width: 300px;
+                    transition: transform 0.3s ease-in-out;
+                }
 
 
                 .navSlide.open {
@@ -126,11 +126,11 @@ class NavSlide extends HTMLElement {
             <div class="navegador">
                 <div class="menu">
                     <button class="boton">
-                        <img class="imagen" src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
+                        <img class="imagen" src="/assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
                     </button>
                 </div>
 
-                <a href="./../../index.html" class="cajatitulo">
+                <a href="/index.html" class="cajatitulo">
                     <h2 class="logotipo">ARTESANA</h2>
                 </a>
 
@@ -140,21 +140,21 @@ class NavSlide extends HTMLElement {
             <!-- ====== MENU LATERAL ====== -->
             <nav class="navSlide">
                 <div class="botonNav">
-                    <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
+                    <img src="/assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
                 </div>
 
                 <div class="categoriasMenu">
-                    <a href="./../carteras/carteras.html">Carteras</a>
-                    <a href="./../flores/flores.html">Flores</a>
-                    <a href="./../tejidosbebe/tejidosbebe.html">Tejidos de bebé</a>
-                    <a href="./../llaveros/llaveros.html">Llaveros</a>
-                    <a href="./../sanvalentin/sanvalentin.html">San valentin</a>
+                    <a href="/components/carteras/carteras.html">Carteras</a>
+                    <a href="/components/flores/flores.html">Flores</a>
+                    <a href="/components/tejidosbebe/tejidosbebe.html">Tejidos de bebé</a>
+                    <a href="/components/llaveros/llaveros.html">Llaveros</a>
+                    <a href="/components/sanvalentin/sanvalentin.html">San valentin</a>
                     <div class="iconWaAndIn">
                         <a href="https://wa.link/76fgft">
-                            <img class="icono-enlace-nav" src="./../../assets/icono-whatsapp.png">
+                            <img class="icono-enlace-nav" src="/assets/icono-whatsapp.png">
                         </a>
                         <a href="https://www.instagram.com/artesana.mcbo">
-                            <img class="icono-enlace-nav" src="./../../assets/icono-instagram.png">
+                            <img class="icono-enlace-nav" src="/assets/icono-instagram.png">
                         </a>
                     </div>
                 </div>

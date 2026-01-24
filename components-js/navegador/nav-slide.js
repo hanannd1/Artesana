@@ -1,3 +1,5 @@
+const BASE_URL = new URL('.', import.meta.url);
+
 class NavSlide extends HTMLElement {
     constructor() {
         super();
@@ -124,40 +126,39 @@ class NavSlide extends HTMLElement {
             <!-- ====== BARRA SUPERIOR ====== -->
             <div class="barra-espaciadora"></div>
             <div class="navegador">
-                <div class="menu">
-                    <button class="boton">
-                        <img class="imagen" src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
-                    </button>
-                </div>
+                <button class="boton">
+                    <img class="imagen" src="${BASE_URL}../../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
+                </button>
 
-                <a href="./../../index.html" class="cajatitulo">
+                <a href="${BASE_URL}../../../index.html">
                     <h2 class="logotipo">ARTESANA</h2>
                 </a>
 
-                <div class="cajainvisible"></div>
+                <div style="width:36px"></div>
             </div>
 
-            <!-- ====== MENU LATERAL ====== -->
+            <!-- MENU LATERAL -->
             <nav class="navSlide">
                 <div class="botonNav">
-                    <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
+                    <img class="imagen" src="${BASE_URL}../../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
                 </div>
 
                 <div class="categoriasMenu">
-                    <a href="./../carteras/carteras.html">Carteras</a>
-                    <a href="./../flores/flores.html">Flores</a>
-                    <a href="./../tejidosbebe/tejidosbebe.html">Tejidos de bebé</a>
-                    <a href="./../llaveros/llaveros.html">Llaveros</a>
-                    <a href="./../sanvalentin/sanvalentin.html">San valentin</a>
+                    <a href="${BASE_URL}../../flores/flores.html">Flores</a>
+                    <a href="${BASE_URL}../../llaveros/llaveros.html">Llaveros</a>
+                    <a href="${BASE_URL}../../tejidosbebe/tejidosbebe.html">Tejidos de bebé</a>
+                    <a href="${BASE_URL}../../sanvalentin/sanvalentin.html">San valentín</a>
+
                     <div class="iconWaAndIn">
                         <a href="https://wa.link/76fgft">
-                            <img class="icono-enlace-nav" src="./../../assets/icono-whatsapp.png">
+                            <img class="icono-enlace-nav" src="${BASE_URL}../../../assets/icono-whatsapp.png">
                         </a>
                         <a href="https://www.instagram.com/artesana.mcbo">
-                            <img class="icono-enlace-nav" src="./../../assets/icono-instagram.png">
+                            <img class="icono-enlace-nav" src="${BASE_URL}../../../assets/icono-instagram.png">
                         </a>
                     </div>
                 </div>
+            </nav>
             </nav>
         `;
     }

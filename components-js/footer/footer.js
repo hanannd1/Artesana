@@ -7,8 +7,20 @@ class FooterCostume extends HTMLElement {
     connectedCallback() {
         this.render();
     }
+    
+    getBasePath() {
+    const path = window.location.pathname;
+
+    if (path.includes('/components/')) {
+        return '../../';
+    }
+
+    return './';
+    }
 
     render() {
+        const BASE = this.getBasePath();
+
         this.shadowRoot.innerHTML = `
             <style>
                 .piedepagina {
@@ -68,12 +80,12 @@ class FooterCostume extends HTMLElement {
                     <ul>
                         <li>
                             <a href="https://wa.link/76fgft" target="_blank"> 
-                                <img class="icono-enlace" src="./../../assets/icono-whatsapp.png">
+                                <img class="icono-enlace" src="${BASE}assets/icono-whatsapp.png">
                             </a>
                         </li>
                         <li>
                             <a href="https://www.instagram.com/artesana.mcbo?igsh=NDFnMzkzM21vdTk0" target="_blank">                
-                                <img class="icono-enlace" src="./../../assets/icono-instagram.png">
+                                <img class="icono-enlace" src="${BASE}assets/icono-instagram.png">
                             </a>
                         </li>
                     </ul>

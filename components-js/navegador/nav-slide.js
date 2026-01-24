@@ -8,12 +8,10 @@ class NavSlide extends HTMLElement {
     connectedCallback() {
         this.render();
 
-        // Botón hamburguesa de la barra superior
         this.shadowRoot
             .querySelector(".boton")
             .addEventListener("click", () => this.toggleNav());
 
-        // Botón hamburguesa dentro del menú lateral
         this.shadowRoot
             .querySelector(".botonNav")
             .addEventListener("click", () => this.toggleNav());
@@ -25,7 +23,19 @@ class NavSlide extends HTMLElement {
         this.isOpen = !this.isOpen;
     }
 
+    getBasePath() {
+    const path = window.location.pathname;
+
+    if (path.includes('/components/')) {
+        return '../../';
+    }
+
+    return './';
+    }
+
+
     render() {
+        const BASE = this.getBasePath();
         this.shadowRoot.innerHTML = `
             <style>
                 /* ====== BARRA SUPERIOR ====== */
@@ -126,11 +136,11 @@ class NavSlide extends HTMLElement {
             <div class="navegador">
                 <div class="menu">
                     <button class="boton">
-                        <img class="imagen" src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
+                        <img class="imagen" src="${BASE}assets/simbolo-de-lista-de-tres-elementos-con-puntos.png">
                     </button>
                 </div>
 
-                <a href="./../../index.html" class="cajatitulo">
+                <a href="${BASE}index.html" class="cajatitulo">
                     <h2 class="logotipo">ARTESANA</h2>
                 </a>
 
@@ -140,21 +150,21 @@ class NavSlide extends HTMLElement {
             <!-- ====== MENU LATERAL ====== -->
             <nav class="navSlide">
                 <div class="botonNav">
-                    <img src="./../../assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
+                    <img src="${BASE}assets/simbolo-de-lista-de-tres-elementos-con-puntos.png" alt="">
                 </div>
 
                 <div class="categoriasMenu">
-                    <a href="./../carteras/carteras.html">Carteras</a>
-                    <a href="./../flores/flores.html">Flores</a>
-                    <a href="./../tejidosbebe/tejidosbebe.html">Tejidos de bebé</a>
-                    <a href="./../llaveros/llaveros.html">Llaveros</a>
-                    <a href="./../sanvalentin/sanvalentin.html">San valentin</a>
+                    <a href="${BASE}components/carteras/carteras.html">Carteras</a>
+                    <a href="${BASE}components/flores/flores.html">Flores</a>
+                    <a href="${BASE}components/tejidosbebe/tejidosbebe.html">Tejidos de bebé</a>
+                    <a href="${BASE}components/llaveros/llaveros.html">Llaveros</a>
+                    <a href="${BASE}components/sanvalentin/sanvalentin.html">San valentin</a>
                     <div class="iconWaAndIn">
                         <a href="https://wa.link/76fgft">
-                            <img class="icono-enlace-nav" src="./../../assets/icono-whatsapp.png">
+                            <img class="icono-enlace-nav" src="${BASE}assets/icono-whatsapp.png">
                         </a>
                         <a href="https://www.instagram.com/artesana.mcbo">
-                            <img class="icono-enlace-nav" src="./../../assets/icono-instagram.png">
+                            <img class="icono-enlace-nav" src="${BASE}assets/icono-instagram.png">
                         </a>
                     </div>
                 </div>

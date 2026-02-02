@@ -1,3 +1,9 @@
-  [
-  
-  ]
+[
+  {
+    "img": "./../../assets/flores/bouquetTulipanIndividual.bmp",
+    "titulo": "Bouquet de tulipan individual",
+    "descripcion": "",
+    "precio": "7$",
+    "categoria": "Flores"
+  }
+]

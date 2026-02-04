@@ -158,7 +158,7 @@ class NavSlide extends HTMLElement {
                     <a href="${BASE}components/flores/flores.html">Flores</a>
                     <a href="${BASE}components/tejidosbebe/tejidosbebe.html">Tejidos de bebé</a>
                     <a href="${BASE}components/llaveros/llaveros.html">Llaveros</a>
-                    <a href="${BASE}components/sanvalentin/sanvalentin.html">San valentin</a>
+                    <a href="${BASE}components/temporada/temporada.html">San valentin</a>
                     <div class="iconWaAndIn">
                         <a href="https://wa.link/76fgft">
                             <img class="icono-enlace-nav" src="${BASE}assets/icono-whatsapp.png">

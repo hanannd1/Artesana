@@ -1,3 +1,58 @@
-  [
-  
-  ]
+[
+  {
+    "img": "./../../assets/sanvalentin/abcFlores.jpg",
+    "titulo": "El lenguaje de las flores, donde su nombre se convierte en poesia",
+    "descripcion": "personalizalo con el nombre de esa persona especial. Incluye la fragancia y la tarjeta que dice, Rocia tus flores 1 vez x semana para que tu arreglo siempre huela a primavera",
+    "precio": "3,5$ cada letra",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/sanvalentin/bouquetTeddy.jpg",
+    "titulo": "Bouquet Teddy",
+    "descripcion": "peluche + 2 tulipanes tejidos del color que desees",
+    "precio": "25$ (precio preventa hasta el 6 de febrero)",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/sanvalentin/bouquetWinniepooh.jpg",
+    "titulo": "Bouquet Winnie Pooh",
+    "descripcion": "peluche + 2 tulipanes tejidos",
+    "precio": "30$ (precio preventa hasta el 6 de febrero)",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/sanvalentin/llaveroMatch.jpg",
+    "titulo": "Llavero Match",
+    "descripcion": "Llavero tejido personalizado con las iniciales de la pareja",
+    "precio": "7$ c/u",
+    "categoria": "Tejidos"
+  },
+   {
+    "img": "./../../assets/sanvalentin/bouquetSirin.jpg",
+    "titulo": "Bouquet Sirin",
+    "descripcion": "Ramo de 3 tuipanes, 3 mini margaritas, tarjeta, perlas y malla decorativa",
+    "precio": "30$ c/u",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/sanvalentin/bouquetMickey.jpg",
+    "titulo": "Bouquet Mickey y Minnie",
+    "descripcion": "Peluches de Mickey y Minnie Mouse + corazon tejido",
+    "precio": "35$ (preventa hasta el 6 de febrero)",
+    "categoria": "Tejidos"
+  },
+   {
+    "img": "./../../assets/sanvalentin/bouquetKau.jpg",
+    "titulo": "Bouquet Kau",
+    "descripcion": "Bouquet de 5 tulipanes, 3 mini margaritas, malla con perlas y tarjeta",
+    "precio": "43$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/sanvalentin/bouquetJardin.jpg",
+    "titulo": "Bouquet jardin",
+    "descripcion": "Bouquet de 7 tulipanes + tarjeta",
+    "precio": "50$",
+    "categoria": "Tejidos"
+  }
+]

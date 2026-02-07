@@ -14,7 +14,7 @@
     "categoria": "Tejidos"
   },
   {
-    "img": "./../../assets/sanvalentin/bouquetWinniepooh.jpg",
+    "img": "./../../assets/sanvalentin/bouquetWinniePooh.jpeg",
     "titulo": "Bouquet Winnie Pooh",
     "descripcion": "peluche + 2 tulipanes tejidos",
     "precio": "30$ (precio preventa hasta el 6 de febrero)",
@@ -53,6 +53,20 @@
     "titulo": "Bouquet jardin",
     "descripcion": "Bouquet de 7 tulipanes + tarjeta",
     "precio": "50$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/sanvalentin/bouquetLotso.jpeg",
+    "titulo": "Bouquet Lotso",
+    "descripcion": "Corazon tejido + mini peluche de lotso (el peluche tambien es un llavero)",
+    "precio": "20$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/sanvalentin/bouquetOsitoLlavero.jpeg",
+    "titulo": "Bouquet osito + tulipan",
+    "descripcion": "tulipan tejido + mini oso de peluche (el peluche tambien es un llavero)",
+    "precio": "16$",
     "categoria": "Tejidos"
   }
 ]

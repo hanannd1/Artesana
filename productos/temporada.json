@@ -10,14 +10,21 @@
     "img": "./../../assets/sanvalentin/bouquetTeddy.jpg",
     "titulo": "Bouquet Teddy",
     "descripcion": "peluche + 2 tulipanes tejidos del color que desees",
-    "precio": "25$ (precio preventa hasta el 6 de febrero)",
+    "precio": "30$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/sanvalentin/miniTulip.jpeg",
+    "titulo": "Mini tulip + tarjeta",
+    "descripcion": "detalle para amigas, personaliza el color de la flor",
+    "precio": "6$ (5,5$ a partir de 10)",
     "categoria": "Tejidos"
   },
   {
     "img": "./../../assets/sanvalentin/bouquetWinniePooh.jpeg",
     "titulo": "Bouquet Winnie Pooh",
     "descripcion": "peluche + 2 tulipanes tejidos",
-    "precio": "30$ (precio preventa hasta el 6 de febrero)",
+    "precio": "35$",
     "categoria": "Tejidos"
   },
   {
@@ -38,7 +45,7 @@
     "img": "./../../assets/sanvalentin/bouquetMickey.jpg",
     "titulo": "Bouquet Mickey y Minnie",
     "descripcion": "Peluches de Mickey y Minnie Mouse + corazon tejido",
-    "precio": "35$ (preventa hasta el 6 de febrero)",
+    "precio": "35$",
     "categoria": "Tejidos"
   },
    {

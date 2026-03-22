@@ -1,79 +1,37 @@
 [
   {
-    "img": "./../../assets/sanvalentin/abcFlores.jpg",
-    "titulo": "El lenguaje de las flores, donde su nombre se convierte en poesia",
-    "descripcion": "personalizalo con el nombre de esa persona especial. Incluye la fragancia y la tarjeta que dice, Rocia tus flores 1 vez x semana para que tu arreglo siempre huela a primavera",
-    "precio": "3,5$ cada letra",
+    "img": "./../../assets/mesh/caracolas.jpg",
+    "titulo": "Caracola",
+    "descripcion": "Gorrito tejido decorado con dijes de caracolas",
+    "precio": "22$",
     "categoria": "Tejidos"
   },
   {
-    "img": "./../../assets/sanvalentin/bouquetTeddy.jpg",
-    "titulo": "Bouquet Teddy",
-    "descripcion": "peluche + 2 tulipanes tejidos del color que desees",
-    "precio": "30$",
+    "img": "./../../assets/mesh/sirena.jpg",
+    "titulo": "Marea",
+    "descripcion": "Gorrito tejido con borde ondulado",
+    "precio": "18$",
     "categoria": "Tejidos"
   },
   {
-    "img": "./../../assets/sanvalentin/miniTulip.jpeg",
-    "titulo": "Mini tulip + tarjeta",
-    "descripcion": "detalle para amigas, personaliza el color de la flor",
-    "precio": "6$ (5,5$ a partir de 10)",
-    "categoria": "Tejidos"
-  },
-  {
-    "img": "./../../assets/sanvalentin/bouquetWinniePooh.jpeg",
-    "titulo": "Bouquet Winnie Pooh",
-    "descripcion": "peluche + 2 tulipanes tejidos",
-    "precio": "35$",
-    "categoria": "Tejidos"
-  },
-  {
-    "img": "./../../assets/sanvalentin/llaveroMatch.jpg",
-    "titulo": "Llavero Match",
-    "descripcion": "Llavero tejido personalizado con las iniciales de la pareja",
-    "precio": "7$ c/u",
-    "categoria": "Tejidos"
-  },
-   {
-    "img": "./../../assets/sanvalentin/bouquetSirin.jpg",
-    "titulo": "Bouquet Sirin",
-    "descripcion": "Ramo de 3 tuipanes, 3 mini margaritas, tarjeta, perlas y malla decorativa",
-    "precio": "30$ c/u",
-    "categoria": "Tejidos"
-  },
-  {
-    "img": "./../../assets/sanvalentin/bouquetMickey.jpg",
-    "titulo": "Bouquet Mickey y Minnie",
-    "descripcion": "Peluches de Mickey y Minnie Mouse + corazon tejido",
-    "precio": "35$",
-    "categoria": "Tejidos"
-  },
-   {
-    "img": "./../../assets/sanvalentin/bouquetKau.jpg",
-    "titulo": "Bouquet Kau",
-    "descripcion": "Bouquet de 5 tulipanes, 3 mini margaritas, malla con perlas y tarjeta",
-    "precio": "43$",
-    "categoria": "Tejidos"
-  },
-  {
-    "img": "./../../assets/sanvalentin/bouquetJardin.jpg",
-    "titulo": "Bouquet jardin",
-    "descripcion": "Bouquet de 7 tulipanes + tarjeta",
-    "precio": "50$",
-    "categoria": "Tejidos"
-  },
-  {
-    "img": "./../../assets/sanvalentin/bouquetLotso.jpeg",
-    "titulo": "Bouquet Lotso",
-    "descripcion": "Corazon tejido + mini peluche de lotso (el peluche tambien es un llavero)",
-    "precio": "20$",
-    "categoria": "Tejidos"
-  },
-  {
-    "img": "./../../assets/sanvalentin/bouquetOsitoLlavero.jpeg",
-    "titulo": "Bouquet osito + tulipan",
-    "descripcion": "tulipan tejido + mini oso de peluche (el peluche tambien es un llavero)",
+    "img": "./../../assets/mesh/brisa.jpg",
+    "titulo": "Brisa",
+    "descripcion": "Gorrito tejido sin borde",
     "precio": "16$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/mesh/perlas.jpg",
+    "titulo": "Perla Marina",
+    "descripcion": "Gorrito tejido decorado con perlas",
+    "precio": "21$",
+    "categoria": "Tejidos"
+  },
+  {
+    "img": "./../../assets/mesh/marea.jpg",
+    "titulo": "Sirena",
+    "descripcion": "Gorrito tejido decorado con dijes con motivo de mar (estrella, caracolas y caballitos de mar)",
+    "precio": "23$",
     "categoria": "Tejidos"
   }
 ]

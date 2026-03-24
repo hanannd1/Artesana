@@ -4,7 +4,7 @@ var isOpen = false;
 function navOpenAndClose(){
     let colors = document.getElementById('coloresFlores')
     if(isOpen == false){
-        let scrollHeight = colors.scrollHeight; // Obtenemos la altura completa del contenido
+        let scrollHeight = colors.scrollHeight;
         colors.style.height = scrollHeight + 'px';
         isOpen = true
     }else{
